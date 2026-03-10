@@ -5,6 +5,9 @@
 <meta name="description" content="{{ $description ?? '' }}">
 <meta name="keywords" content="{{ $keywords ?? '' }}">
 {{-- <link rel="icon" type="images/jpg" href="{{ asset('assets/img/fav.svg') }}"> --}}
+<!-- swiper js link -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" /> -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" /> -->
 
 {{-- Preload Hero Banner Image --}}
 {{-- <link rel="preload" as="image" href="{{ asset('images/hero-banner.webp') }}" type="image/webp" fetchpriority="high"> --}}

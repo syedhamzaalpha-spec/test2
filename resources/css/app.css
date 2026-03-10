@@ -78,7 +78,7 @@
     .h5,
     h6,
     .h6 {
-        @apply text-primary mb-3 font-medium leading-tight font-Montserrat;
+        @apply text-primary mb-3 font-medium leading-tight font-RussoOne;
     }
 
     h1,
@@ -338,9 +338,29 @@
     background-image: url(/assets/img/process-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    
     
 }
-.card{
-    top: -150%;
-  }
+.card-section{
+    top: -50px;
+}
+/* swiper js link */
+  
+
+
+    /* .swiper {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    } */
+
+    /* .swiper-slide {
+      text-align: center;
+     
+      /* height: calc((100% - 30px) / 2) ; */
+
+      /* Center slide text vertically */
+      /* display: flex;
+      justify-content: center;
+      align-items: center;
+    }  */

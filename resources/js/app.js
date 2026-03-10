@@ -22,6 +22,18 @@ hamburgers.forEach((hamburger) => {
     menu.classList.toggle("flex-col");
   });
 });
+// // swiper js link
+//  var swiper = new Swiper(".mySwiper", {
+//       slidesPerView: 3,
+//       grid: {
+//         rows: 2,
+//       },
+//       spaceBetween: 10,
+//       pagination: {
+//         el: ".swiper-pagination",
+//         clickable: true,
+//       },
+//     });
     
 
 
