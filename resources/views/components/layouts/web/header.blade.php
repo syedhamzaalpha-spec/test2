@@ -21,7 +21,7 @@
                 </li>
                 <li class=" flex gap-3 ">
                     <a href="gmail" class="flex  text-white"><img src="{{ asset('assets/img/email.png') }}"
-                            alt="email" width="25" height="20" class="pr-2"><span
+                            alt="email" width="25" height="20" class="pr-2 "><span
                             class="hidden sm:block">sales@trademarklegit.com</span></a>
                 </li>
 
@@ -32,17 +32,17 @@
                     <li class=" flex gap-3 ">
                         <a href="gmail" class="flex  text-white text:sm "><img
                                 src="{{ asset('assets/img/linkedin.svg') }}" alt="phone" width="30"
-                                height="30" class="pr-2 flex "><span class="hidden sm:block"></a>
+                                height="30" class="pr-2 flex invert "><span class="hidden sm:block"></a>
                     </li>
                     <li class=" flex gap-3 ">
                         <a href="gmail" class="flex  text-white"><img src="{{ asset('assets/img/facebook.svg') }}"
-                                alt="email" width="30" height="22" class="pr-2"><span
+                                alt="email" width="30" height="22" class="pr-2 invert"><span
                                 class="hidden sm:block"></a>
                     </li>
                     <li class=" flex gap-3 ">
                         <a href="gmail" class="flex  text-white"><img src="{{ asset('assets/img/instagram.svg') }}"
-                                alt="email" width="30" height="22" class="pr-2 "><span
-                                class="hidden sm:block"></a>
+                                alt="email" width="30" height="22" class="pr-2 invert"><span
+                                class="hidden sm:block "></a>
                     </li>
 
                 </ul>

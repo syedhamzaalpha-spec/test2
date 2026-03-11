@@ -200,7 +200,7 @@
             @apply z-20;
         }
         &:hover {
-            animation: rotate624 0.7s ease-in-out both;
+            /* animation: rotate624 0.7s ease-in-out both; */
             span {
                 animation: storm1261 0.7s ease-in-out both;
                 animation-delay: 0.06s;
@@ -364,3 +364,15 @@
       justify-content: center;
       align-items: center;
     }  */
+     .testimonialSwiper  .swiper-slide-active   {
+        background: url(../../public/assets/img/testimonial.png) no-repeat top/cover;
+        color: white !important;
+      }
+      .testimonialSwiper  .swiper-slide-active .testimonial-card p{
+        color: white;
+      }
+      .testimonialSwiper .swiper-slide-prev .testimonial-card,
+      .testimonialSwiper .swiper-slide-next  .testimonial-card{
+       opacity: 0.5;
+        
+      }

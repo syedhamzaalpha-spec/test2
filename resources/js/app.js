@@ -34,7 +34,6 @@ hamburgers.forEach((hamburger) => {
 //         clickable: true,
 //       },
 //     });
-    
-
+      
 
   
