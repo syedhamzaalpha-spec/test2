@@ -38,5 +38,6 @@ var swiper = new Swiper(".testimonialSwiper", {
 
                 },
             },
+            
 });
 </script>
