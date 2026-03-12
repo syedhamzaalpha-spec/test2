@@ -60,8 +60,10 @@
         </div>
 
     </section>
-    <section>
-        <div class="container flex">
+    <section
+        class="mx-auto lg:bg-[url('../../public/assets/img/about-man-ChOHwkn-.png')]  bg-no-repeat relative bg-contain  ">
+
+        <div class=" container flex">
             <div class="lg:w-7/12 w-full">
                 <div>
                     <h2 class="text-black font-RussoOne">Your Intellectual Property, <span class="text-teal-600">
@@ -92,79 +94,79 @@
         </div>
     </section>
     {{-- card background image --}}
-    <section class="h-100">
-        <div class=" text-center bg-[url('assets/img/process-bg.png')] lg:h-100 bg-no-repeat bg-cover">
-            <div class="container">
-                <div>
-                    <h3 class=" text-[clamp(30px,3vw,40px)] text-white pt-2 lg:pt-5 font-RussoOne">Our Simple Trademark
-                        Registration Process
-                    </h3>
-                    <p class=" text-white"> We help you file your trademark registration process in 3 simple steps.
-                    </p>
-                </div>
+    <section class="bg-[url('assets/img/process-bg.png')]  text-center  bg-no-repeat bg-cover ">
+
+        <div class="container">
+            <div>
+                <h3 class=" text-[clamp(30px,3vw,40px)] text-white pt-2 lg:pt-5 font-RussoOne">Our Simple Trademark
+                    Registration Process
+                </h3>
+                <p class=" text-white"> We help you file your trademark registration process in 3 simple steps.
+                </p>
             </div>
+        </div>
     </section>
     <!-- card-section -->
     <!-- <section class="h-100">
-                                <div class="container">
-                                    <div class="card-section w-full grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 absolute m-auto">
-                                        <div class=" bg-[url(assets/img/card.png)] bg-no-repeat bg-center bg-cover  pt-10 py-10 px-5 box-border">
-                                            <img src="{{ asset('assets/img/Process-1.png') }}" alt="card-icon" width="40px">
-                                            <h5 class="pt-3">Fill Our Simple Online Questionnaire</h5>
-                                            <p class="py-5 ">Fill up all the important information in our online questionnaire to get your trademark registration process started.</p>
-                                        </div>
-                                           <div class=" bg-[url(assets/img/card.png)] bg-no-repeat bg-cover  pt-10 py-10 px-5 box-border">
-                                            <img src="{{ asset('assets/img/Process-1.png') }}" alt="card-icon" width="40px">
-                                            <h5 class="pt-3">Fill Our Simple Online Questionnaire</h5>
-                                            <p class="py-5 ">Fill up all the important information in our online questionnaire to get your trademark registration process started.</p>
-                                        </div>
-                                           <div class=" bg-[url(assets/img/card.png)] bg-no-repeat bg-cover  pt-10 py-10 px-5 box-border">
-                                            <img src="{{ asset('assets/img/Process-1.png') }}" alt="card-icon" width="40px">
-                                            <h5 class="pt-3">Fill Our Simple Online Questionnaire</h5>
-                                            <p class="py-5 ">Fill up all the important information in our online questionnaire to get your trademark registration process started.</p>
-                                        </div>
+                                                        <div class="container">
+                                                            <div class="card-section w-full grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 absolute m-auto">
+                                                                <div class=" bg-[url(assets/img/card.png)] bg-no-repeat bg-center bg-cover  pt-10 py-10 px-5 box-border">
+                                                                    <img src="{{ asset('assets/img/Process-1.png') }}" alt="card-icon" width="40px">
+                                                                    <h5 class="pt-3">Fill Our Simple Online Questionnaire</h5>
+                                                                    <p class="py-5 ">Fill up all the important information in our online questionnaire to get your trademark registration process started.</p>
+                                                                </div>
+                                                                   <div class=" bg-[url(assets/img/card.png)] bg-no-repeat bg-cover  pt-10 py-10 px-5 box-border">
+                                                                    <img src="{{ asset('assets/img/Process-1.png') }}" alt="card-icon" width="40px">
+                                                                    <h5 class="pt-3">Fill Our Simple Online Questionnaire</h5>
+                                                                    <p class="py-5 ">Fill up all the important information in our online questionnaire to get your trademark registration process started.</p>
+                                                                </div>
+                                                                   <div class=" bg-[url(assets/img/card.png)] bg-no-repeat bg-cover  pt-10 py-10 px-5 box-border">
+                                                                    <img src="{{ asset('assets/img/Process-1.png') }}" alt="card-icon" width="40px">
+                                                                    <h5 class="pt-3">Fill Our Simple Online Questionnaire</h5>
+                                                                    <p class="py-5 ">Fill up all the important information in our online questionnaire to get your trademark registration process started.</p>
+                                                                </div>
 
-                                    </div>
-                                </div>
-                             </section> -->
+                                                            </div>
+                                                        </div>
+                                                     </section> -->
 
     <!-- <section class="">
-                                
-                                    <div class="container absolute  top-0">
-                                        <div class="grid  card lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-items-center  sm:gap-2  text-wrap">
-                                            <div class="bg-[url('assets/img/bg-card.png')]  bg-no-repeat bg-cover px-8 py-8 pt-10 text-start ">
-                                                <img src="{{ asset('assets/img/Process-1.png') }}" alt="process-1" width="50" class="pb-2">
-                                                <span class="text-white text-2xl font-RussoOne ">Fill Our Simple Online
-                                                    Questionnaire</span>
-                                                <p class=" pt-5 mt-4 mb-0 text-[clamp(14px,2vw,20px)] leading-relaxed">Fill up all the important
-                                                    information in our online questionnaire to get your
-                                                    trademark registration process started.</p>
-                                            </div>
-                                            <div class="bg-[url('assets/img/bg-card.png')]  bg-no-repeat bg-cover px-8 py-8 pt-10 text-start ">
-                                                <img src="{{ asset('assets/img/Process-1.png') }}" alt="process-1" width="50" class="pb-2">
-                                                <span class="text-white font-RussoOne text-2xl   ">Search for Available
-                                                    Trademark</span>
-                                                <p class=" pt-5 mt-4  mb-0 text-[clamp(14px,2vw,20px)] leading-relaxed ">Fill up all the important
-                                                    information in our online questionnaire to get your trademark registration process started.</p>
-                                            </div>
-                                            
+                                                        
+                                                            <div class="container absolute  top-0">
+                                                                <div class="grid  card lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-items-center  sm:gap-2  text-wrap">
+                                                                    <div class="bg-[url('assets/img/bg-card.png')]  bg-no-repeat bg-cover px-8 py-8 pt-10 text-start ">
+                                                                        <img src="{{ asset('assets/img/Process-1.png') }}" alt="process-1" width="50" class="pb-2">
+                                                                        <span class="text-white text-2xl font-RussoOne ">Fill Our Simple Online
+                                                                            Questionnaire</span>
+                                                                        <p class=" pt-5 mt-4 mb-0 text-[clamp(14px,2vw,20px)] leading-relaxed">Fill up all the important
+                                                                            information in our online questionnaire to get your
+                                                                            trademark registration process started.</p>
+                                                                    </div>
+                                                                    <div class="bg-[url('assets/img/bg-card.png')]  bg-no-repeat bg-cover px-8 py-8 pt-10 text-start ">
+                                                                        <img src="{{ asset('assets/img/Process-1.png') }}" alt="process-1" width="50" class="pb-2">
+                                                                        <span class="text-white font-RussoOne text-2xl   ">Search for Available
+                                                                            Trademark</span>
+                                                                        <p class=" pt-5 mt-4  mb-0 text-[clamp(14px,2vw,20px)] leading-relaxed ">Fill up all the important
+                                                                            information in our online questionnaire to get your trademark registration process started.</p>
+                                                                    </div>
+                                                                    
 
 
 
-                                            <div class="bg-[url('assets/img/bg-card.png')]  bg-no-repeat bg-cover px-8 py-8 pt-10 text-start ">
-                                                <img src="{{ asset('assets/img/Process-1.png') }}" alt="process-1" width="50" class="pb-2">
-                                                <span class="text-white font-bold text-2xl font-Montserrat flex ">A Detailed Trademark Report</span>
-                                                <p class=" pt-5 mt-4 mb-0 text-[clamp(14px,2vw,20px)] leading-relaxed ">Fill up all the important
-                                                    information in our online questionnaire to get your trademark registration process started.</p>
-                                            </div>
+                                                                    <div class="bg-[url('assets/img/bg-card.png')]  bg-no-repeat bg-cover px-8 py-8 pt-10 text-start ">
+                                                                        <img src="{{ asset('assets/img/Process-1.png') }}" alt="process-1" width="50" class="pb-2">
+                                                                        <span class="text-white font-bold text-2xl font-Montserrat flex ">A Detailed Trademark Report</span>
+                                                                        <p class=" pt-5 mt-4 mb-0 text-[clamp(14px,2vw,20px)] leading-relaxed ">Fill up all the important
+                                                                            information in our online questionnaire to get your trademark registration process started.</p>
+                                                                    </div>
 
 
-                                        </div>
-                                    </div>
-                            </section> -->
+                                                                </div>
+                                                            </div>
+                                                    </section> -->
     <section>
-        <div class="container lg:flex mt-10">
-            <div class="w-full  lg:w-7/12 ">
+        <div class="container flex ">
+            <div class="w-full lg:w-6/12 px-2">
                 <span class="text-3xl pt-10 ">Explore Our Services</span>
                 <img src="{{ asset('assets/img/logo-black.png') }}" alt="" width="200px" class="pt-5">
                 <p class="text-teal-600 font-bold">Secure your brand and protect your intellectual assets with reliable
@@ -198,91 +200,109 @@
                 </div>
             </div>
 
+            {{-- twin-slide  --}}
 
-            <!-- slider section -->
-            <!-- <div class="w-full lg:w-5/12 ">
-                                   
-                                 <div class="swiper mySwiper ">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide border border-black w-72 h-96 p-4 box-border">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action Response </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                             <div class="swiper-slide">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action Response </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                           <div class="swiper-slide">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action Response </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                             <div class="swiper-slide">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action Response </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                             <div class="swiper-slide">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action Response </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                             <div class="swiper-slide">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action Response </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                             <div class="swiper-slide">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action Response </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                             <div class="swiper-slide">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action Response </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                             <div class="swiper-slide">
-                                                <h3 class="font-RussoOne text-start text-[clamp(19px,1.2vw,24px)] text-teal-600 leading-snug">Office Action Response </h3>
-                                                <p>Resolve trademark  office objections efficiently with our expert guidance, ensuring your application progresses smoothly and your brand remains protected. </p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-pagination"></div>
-                                    </div>
-                                </div> -->
+            <div class="  lg:w-6/12 ">
+
+
+
+                {{-- slider-copy --}}
+                <div class="swiper  OurServices ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <div class="border border-teal-500 py-10  px-2 rounded-lg">
+                                <h5 class="text-[clamp(14px,3vw,18px)] text-teal-600">1) Amazon Brand Registry</h5>
+                                <p class="text-[clamp(14px,3vw,17px)] pt-3"> Protect and grow your products on Amazon
+                                    with
+                                    Brand
+                                    Registry,
+                                    securing your trademarks and enhancing visibility, credibility, and control. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-auto!">
+                            <div class="border border-teal-500 py-10  px-2 rounded-lg">
+                                <h5 class="text-[clamp(14px,3vw,18px)] text-teal-600"> 3) Amazon Brand Registry</h5>
+                                <p class="text-[clamp(14px,3vw,17px)] pt-3"> Protect and grow your products on Amazon
+                                    with
+                                    Brand
+                                    Registry,
+                                    securing your trademarks and enhancing visibility, credibility, and control. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border border-teal-500 py-10  px-2 rounded-lg">
+                                <h5 class="text-[clamp(14px,3vw,18px)] text-teal-600"> 4) Amazon Brand Registry</h5>
+                                <p class="text-[clamp(14px,3vw,17px)] pt-3"> Protect and grow your products on Amazon
+                                    with
+                                    Brand
+                                    Registry,
+                                    securing your trademarks and enhancing visibility, credibility, and control. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border border-teal-500 py-10  px-2 rounded-lg">
+                                <h5 class="text-[clamp(14px,3vw,18px)] text-teal-600"> 5) Amazon Brand Registry</h5>
+                                <p class="text-[clamp(14px,3vw,17px)] pt-3"> Protect and grow your products on Amazon
+                                    with
+                                    Brand
+                                    Registry,
+                                    securing your trademarks and enhancing visibility, credibility, and control. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border border-teal-500 py-10  px-2 rounded-lg">
+                                <h5 class="text-[clamp(14px,3vw,18px)] text-teal-600"> 6) Amazon Brand Registry</h5>
+                                <p class="text-[clamp(14px,3vw,17px)] pt-3"> Protect and grow your products on Amazon
+                                    with
+                                    Brand
+                                    Registry,
+                                    securing your trademarks and enhancing visibility, credibility, and control. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border border-teal-500 py-10  px-2 rounded-lg">
+                                <h5 class="text-[clamp(14px,3vw,18px)] text-teal-600"> 7) Amazon Brand Registry</h5>
+                                <p class="text-[clamp(14px,3vw,17px)] pt-3"> Protect and grow your products on Amazon
+                                    with
+                                    Brand
+                                    Registry,
+                                    securing your trademarks and enhancing visibility, credibility, and control. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border border-teal-500 py-10  px-2 rounded-lg">
+                                <h5 class="text-[clamp(14px,3vw,18px)] text-teal-600"> 8) Amazon Brand Registry</h5>
+                                <p class="text-[clamp(14px,3vw,17px)] pt-3"> Protect and grow your products on Amazon
+                                    with
+                                    Brand
+                                    Registry,
+                                    securing your trademarks and enhancing visibility, credibility, and control. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border border-teal-500 py-10  px-2 rounded-lg">
+                                <h5 class="text-[clamp(14px,3vw,18px)] text-teal-600"> 9)Amazon Brand Registry</h5>
+                                <p class="text-[clamp(14px,3vw,17px)] pt-3"> Protect and grow your products on Amazon
+                                    with
+                                    Brand
+                                    Registry,
+                                    securing your trademarks and enhancing visibility, credibility, and control. </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
         </div>
     </section>
 
 
-    <section class=" bg-[url(/assets/img/cta.png)] lg:h-100 h-75  bg-cover bg-center bg-no-repeat">
-        <div class="container flex flex-col lg:flex-row mx-auto items-center">
-            <div class="lg:w-12/12 xl:w-5/12">
-                <div class="flex justify-content-center items-center top-0 gap-2">
-                    <span class="font-RussoOne text-white text-8xl">$38</span>
-                    <span class="font-RussoOne text-white text-3xl">To Own Your Brand's Future.</span>
 
-                </div>
-                <div class="mt-3">
-                    <p class=" text-white ">Brand's Future.Complete Your <span class="font-bold"> Trademark
-                            Registration</span> in Just 3 Simple Steps</p>
-                </div>
-                <div>
-                    <button
-                        class="bg-black rounded-full text-white font-bold py-3 px-6 hover:text-teal-600 hover:bg-white transition duration-300">Secure
-                        Your Rights Today</button>
-                </div>
-
-            </div>
-
-
-            <div class="lg:w-12/12 xl:w-7/12">
-                <div class="hidden md:block">
-                    <img src="{{ asset('assets/img/Cta-img.png') }}" alt="cta-img">
-                </div>
-            </div>
-
-        </div>
-
-
-    </section>
 
     <!-- price-section -->
     <section class="bg-teal-100 text-center">
@@ -639,173 +659,165 @@
                 <div class="swiper testimonialSwiper">
                     <div class="swiper-wrapper h-fit!">
                         <div class="swiper-slide h-fit!">
-                            
-                                <div
-                                    class="testimonial-card  p-5 text-center px-3  py-5">
-                                    <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
-                                        class="mx-auto">                             <p>Trademark Legit keeps me informed every step of the way—from
-                                        filing receipt and publication to final registration. Despite my trademark taking 10
-                                        months, I always knew where things stood.</p>
 
-                                    <div class="mt-4">
-                                        <span class="block  font-bold">Kieran C.</span>
-                                        <span class=" ">CEO at Collins Digital Solutions</span>
-                                    </div>
+                            <div class="testimonial-card  p-5 text-center px-3  py-5">
+                                <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
+                                    class="mx-auto">
+                                <p>Trademark Legit keeps me informed every step of the way—from
+                                    filing receipt and publication to final registration. Despite my trademark taking 10
+                                    months, I always knew where things stood.</p>
+
+                                <div class="mt-4">
+                                    <span class="block  font-bold">Kieran C.</span>
+                                    <span class=" ">CEO at Collins Digital Solutions</span>
                                 </div>
+                            </div>
 
-
-                            
-                        </div>
-                        <div class="swiper-slide h-fit!">
-                            
-                                <div
-                                    class="testimonial-card  p-5 text-center px-3  py-5">
-                                    <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
-                                        class="mx-auto">
-                                    <p class="">Trademark Legit keeps me informed every step of the way—from
-                                        filing receipt and publication to final registration. Despite my trademark taking 10
-                                        months, I always knew where things stood.</p>
-
-                                    <div class="mt-4">
-                                        <span class="block  font-bold">Kieran C.</span>
-                                        <span class=" ">CEO at Collins Digital Solutions</span>
-                                    </div>
-                                </div>
-
-
-                        
-                        </div>
-                        <div class="swiper-slide h-fit!">
-                        
-                                <div
-                                    class="testimonial-card  p-5 text-center px-3  py-5">
-                                    <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
-                                        class="mx-auto">
-                                    <p class="">Trademark Legit keeps me informed every step of the way—from
-                                        filing receipt and publication to final registration. Despite my trademark taking 10
-                                        months, I always knew where things stood.</p>
-
-                                    <div class="mt-4">
-                                        <span class="block  font-bold">Kieran C.</span>
-                                        <span class=" ">CEO at Collins Digital Solutions</span>
-                                    </div>
-                                </div>
-
-
-                            
-                        </div>
-                        <div class="swiper-slide h-fit!">
-                            
-                                <div
-                                    class="testimonial-card  p-5 text-center px-3  py-5">
-                                    <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
-                                        class="mx-auto">
-                                    <p class="">Trademark Legit keeps me informed every step of the way—from
-                                        filing receipt and publication to final registration. Despite my trademark taking 10
-                                        months, I always knew where things stood.</p>
-
-                                    <div class="mt-4">
-                                        <span class="block  font-bold">Kieran C.</span>
-                                        <span class="">CEO at Collins Digital Solutions</span>
-                                    </div>
-                                </div>
-
-
-                            
-                        </div>
-                        <div class="swiper-slide h-fit!">
-                            
-                                <div
-                                    class="testimonial-card  p-5 text-center px-3  py-5">
-                                    <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
-                                        class="mx-auto">
-                                    <p class="">Trademark Legit keeps me informed every step of the way—from
-                                        filing receipt and publication to final registration. Despite my trademark taking 10
-                                        months, I always knew where things stood.</p>
-
-                                    <div class="mt-4">
-                                        <span class="block  font-bold">Kieran C.</span>
-                                        <span class="">CEO at Collins Digital Solutions</span>
-                                    </div>
-                                </div>
-
-
-                            
-                        </div>
-                        <div class="swiper-slide h-fit!">
-                            
-                                <div
-                                    class="testimonial-card  p-5 text-center px-3  py-5">
-                                    <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
-                                        class="mx-auto">
-                                    <p class="">Trademark Legit keeps me informed every step of the way—from
-                                        filing receipt and publication to final registration. Despite my trademark taking 10
-                                        months, I always knew where things stood.</p>
-
-                                    <div class="mt-4">
-                                        <span class="block  font-bold">Kieran C.</span>
-                                        <span class="">CEO at Collins Digital Solutions</span>
-                                    </div>
-                                </div>
-
-
-                            
-                        </div>
-                        <div class="swiper-slide h-fit!">
-                          
-                                <div
-                                    class="testimonial-card  p-5 text-center px-3  py-5">
-                                    <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
-                                        class="mx-auto">
-                                    <p class="">Trademark Legit keeps me informed every step of the way—from
-                                        filing receipt and publication to final registration. Despite my trademark taking 10
-                                        months, I always knew where things stood.</p>
-
-                                    <div class="mt-4">
-                                        <span class="block  font-bold">Kieran C.</span>
-                                        <span class="">CEO at Collins Digital Solutions</span>
-                                    </div>
-                                </div>
 
 
                         </div>
                         <div class="swiper-slide h-fit!">
-                           
-                                <div
-                                    class="testimonial-card  p-5 text-center px-3  py-5">
-                                    <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
-                                        class="mx-auto">
-                                    <p class="">Trademark Legit keeps me informed every step of the way—from
-                                        filing receipt and publication to final registration. Despite my trademark taking 10
-                                        months, I always knew where things stood.</p>
 
-                                    <div class="mt-4">
-                                        <span class="block  font-bold">Kieran C.</span>
-                                        <span class="">CEO at Collins Digital Solutions</span>
-                                    </div>
+                            <div class="testimonial-card  p-5 text-center px-3  py-5">
+                                <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
+                                    class="mx-auto">
+                                <p class="">Trademark Legit keeps me informed every step of the way—from
+                                    filing receipt and publication to final registration. Despite my trademark taking 10
+                                    months, I always knew where things stood.</p>
+
+                                <div class="mt-4">
+                                    <span class="block  font-bold">Kieran C.</span>
+                                    <span class=" ">CEO at Collins Digital Solutions</span>
                                 </div>
+                            </div>
 
 
-                          
+
                         </div>
                         <div class="swiper-slide h-fit!">
-                        
-                                <div
-                                    class="testimonial-card  p-5 text-center px-3  py-5">
-                                    <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
-                                        class="mx-auto">
-                                    <p class="">Trademark Legit keeps me informed every step of the way—from
-                                        filing receipt and publication to final registration. Despite my trademark taking 10
-                                        months, I always knew where things stood.</p>
 
-                                    <div class="mt-4">
-                                        <span class="block  font-bold">Kieran C.</span>
-                                        <span class="">CEO at Collins Digital Solutions</span>
-                                    </div>
+                            <div class="testimonial-card  p-5 text-center px-3  py-5">
+                                <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
+                                    class="mx-auto">
+                                <p class="">Trademark Legit keeps me informed every step of the way—from
+                                    filing receipt and publication to final registration. Despite my trademark taking 10
+                                    months, I always knew where things stood.</p>
+
+                                <div class="mt-4">
+                                    <span class="block  font-bold">Kieran C.</span>
+                                    <span class=" ">CEO at Collins Digital Solutions</span>
                                 </div>
+                            </div>
 
 
-                           
+
+                        </div>
+                        <div class="swiper-slide h-fit!">
+
+                            <div class="testimonial-card  p-5 text-center px-3  py-5">
+                                <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
+                                    class="mx-auto">
+                                <p class="">Trademark Legit keeps me informed every step of the way—from
+                                    filing receipt and publication to final registration. Despite my trademark taking 10
+                                    months, I always knew where things stood.</p>
+
+                                <div class="mt-4">
+                                    <span class="block  font-bold">Kieran C.</span>
+                                    <span class="">CEO at Collins Digital Solutions</span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="swiper-slide h-fit!">
+
+                            <div class="testimonial-card  p-5 text-center px-3  py-5">
+                                <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
+                                    class="mx-auto">
+                                <p class="">Trademark Legit keeps me informed every step of the way—from
+                                    filing receipt and publication to final registration. Despite my trademark taking 10
+                                    months, I always knew where things stood.</p>
+
+                                <div class="mt-4">
+                                    <span class="block  font-bold">Kieran C.</span>
+                                    <span class="">CEO at Collins Digital Solutions</span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="swiper-slide h-fit!">
+
+                            <div class="testimonial-card  p-5 text-center px-3  py-5">
+                                <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
+                                    class="mx-auto">
+                                <p class="">Trademark Legit keeps me informed every step of the way—from
+                                    filing receipt and publication to final registration. Despite my trademark taking 10
+                                    months, I always knew where things stood.</p>
+
+                                <div class="mt-4">
+                                    <span class="block  font-bold">Kieran C.</span>
+                                    <span class="">CEO at Collins Digital Solutions</span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="swiper-slide h-fit!">
+
+                            <div class="testimonial-card  p-5 text-center px-3  py-5">
+                                <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
+                                    class="mx-auto">
+                                <p class="">Trademark Legit keeps me informed every step of the way—from
+                                    filing receipt and publication to final registration. Despite my trademark taking 10
+                                    months, I always knew where things stood.</p>
+
+                                <div class="mt-4">
+                                    <span class="block  font-bold">Kieran C.</span>
+                                    <span class="">CEO at Collins Digital Solutions</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide h-fit!">
+
+                            <div class="testimonial-card  p-5 text-center px-3  py-5">
+                                <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
+                                    class="mx-auto">
+                                <p class="">Trademark Legit keeps me informed every step of the way—from
+                                    filing receipt and publication to final registration. Despite my trademark taking 10
+                                    months, I always knew where things stood.</p>
+
+                                <div class="mt-4">
+                                    <span class="block  font-bold">Kieran C.</span>
+                                    <span class="">CEO at Collins Digital Solutions</span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="swiper-slide h-fit!">
+
+                            <div class="testimonial-card  p-5 text-center px-3  py-5">
+                                <img src="{{ asset('assets/img/quote.png') }}" alt="double-quote" width="50px"
+                                    class="mx-auto">
+                                <p class="">Trademark Legit keeps me informed every step of the way—from
+                                    filing receipt and publication to final registration. Despite my trademark taking 10
+                                    months, I always knew where things stood.</p>
+
+                                <div class="mt-4">
+                                    <span class="block  font-bold">Kieran C.</span>
+                                    <span class="">CEO at Collins Digital Solutions</span>
+                                </div>
+                            </div>
+
+
+
                         </div>
                     </div>
                     {{-- <div class="swiper-pagination"></div> --}}

@@ -23,6 +23,7 @@ var swiper = new Swiper(".testimonialSwiper", {
   centeredSlides: true,
   spaceBetween: 30,
   loop: true,
+  
 
   autoplay: {
     delay: 2500,
@@ -41,3 +42,26 @@ var swiper = new Swiper(".testimonialSwiper", {
             
 });
 </script>
+
+<!-- Initialize Swiper -->
+
+
+
+  
+  <script>
+    var swiper = new Swiper(".OurServices", {
+      slidesPerView: 2,
+      grid: {
+        rows: 2,
+      },
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+       autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+    });
+  </script>

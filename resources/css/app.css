@@ -376,3 +376,18 @@
        opacity: 0.5;
         
       }
+ /* .OurServices{
+  width:100%;
+  overflow:hidden;
+}
+.swiper-slide{
+    height: auto !important;
+} */
+ .OurServices{
+  width:100%;
+  overflow:hidden;
+}
+  .swiper-slide{
+    height: auto !important;
+   
+}    
