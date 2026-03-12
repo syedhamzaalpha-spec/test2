@@ -44,24 +44,74 @@ var swiper = new Swiper(".testimonialSwiper", {
 </script>
 
 <!-- Initialize Swiper -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
-
-
-  
-  <script>
-    var swiper = new Swiper(".OurServices", {
+  <!-- Initialize Swiper -->
+   <!-- <script>
+    var swiper = new Swiper(".mySwiper", {
       slidesPerView: 2,
       grid: {
-        rows: 2,
+        row: 2,
+       fill: "row"
       },
-      spaceBetween: 10,
+      autoplay:{
+        delay: 2500,
+      },
+      spaceBetween: 30,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
-       autoplay: {
+    });
+  </script>  -->
+  
+
+ <script>
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 2,   // 2 columns
+  grid: {
+    rows: 2,          // 2 rows
+    fill: "row"
+  },
+  
+  spaceBetween: 20,
+
+  autoplay: {
     delay: 2500,
     disableOnInteraction: false,
   },
-    });
-  </script>
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+   breakpoints: {
+
+    0: {        // mobile
+      slidesPerView: 1,
+      grid: {
+        rows: 1
+      }
+    },
+
+   1040: {        // mobile
+      slidesPerView: 1,
+      grid: {
+        rows: 1
+      }
+    },
+
+
+    1170: {     // desktop
+      slidesPerView: 2,
+      grid: {
+        rows: 2,
+        fill: "row"
+      }
+    }
+
+  }
+}); 
+
+</script> 
+
