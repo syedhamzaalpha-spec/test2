@@ -8,20 +8,20 @@
 
 
 </nav> --}}
-<div class="bg-teal-500 py-3 lg:block hidden">
+<div class="bg-teal-700 py-3 lg:block hidden">
     <div class="container">
         <div class="flex justify-between">
 
             <ul class="flex justify-center items-center gap-4">
 
-                <li class=" flex gap-3 ">
-                    <a href="gmail" class="flex  text-white text:sm "><img src="{{ asset('assets/img/phone.png') }}"
-                            alt="phone" width="25" height="20" class="pr-2 flex "><span
+                <li class=" flex gap-3 items-center  ">
+                    <a href="phone" class="flex  text-white text:sm "><img src="{{ asset('assets/img/phone.png') }}"
+                            alt="phone" class="pr-2 flex object-contain"><span
                             class="hidden sm:block">(777)636-2167</span></a>
                 </li>
                 <li class=" flex gap-3 ">
                     <a href="gmail" class="flex  text-white"><img src="{{ asset('assets/img/email.png') }}"
-                            alt="email" width="25" height="20" class="pr-2 "><span
+                            alt="email"  class="pr-2 object-contain w-7"><span
                             class="hidden sm:block">sales@trademarklegit.com</span></a>
                 </li>
 
@@ -54,7 +54,7 @@
 
 
 </div>
-<nav class="bg-[#102322] p-3 ">
+<nav class="bg-[#102322] p-3 fix top-0">
     <div class="container mx-auto">
 
         <div class="lg:flex justify-between items-center">
