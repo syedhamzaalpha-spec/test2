@@ -12,7 +12,7 @@ class FrontendController extends Controller
         return view(
             'frontend.pages.home',
             [
-                'title' => 'Home | ',
+                'title' => 'Professional Trademark Service | ',
                 'description' => ''
             ]
         );

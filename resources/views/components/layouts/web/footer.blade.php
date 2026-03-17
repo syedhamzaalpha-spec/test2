@@ -20,12 +20,12 @@
         </div>
 
     </div>
-    <div class="container  ">
-        <div class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-4 border-y-1 border-teal-900">
-            <div class="footer-gradiant-line ">
-
-                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)] ">Quick Links</h6>
-                <span class="border-b-1 border-teal-800 w-[50%] block"></span>
+    <div class="container">
+        <div class="flex flex-wrap py-4 border-y border-teal-900">
+          
+            <div class="footerBorder pt-2 p-5 sm:w-3/12 md:w-4/12 lg:w-2/12">
+                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)] leading-2">Quick Links</h6>
+                <span class="border-b border-teal-800 w-[50%] block"></span>
 
                 <ul class="QuickLinks space-y-2 pt-4">
                     <li><a href="#">Home</a></li>
@@ -38,10 +38,10 @@
 
                 </ul>
             </div>
-            <div class="pr-3 footer-gradiant-line">
+            <div class="footerBorder pt-2  sm:w-5/12 md:w-4/12 lg:w-3/12">
 
-                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]">Trademark Registration</h6>
-                <span class="border-b-1 border-teal-800 w-[50%] block"></span>
+                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Trademark Registration</h6>
+                <span class="border-b border-teal-800 w-[50%] block"></span>
 
                 <ul class="QuickLinks space-y-2  pt-4">
                     <li><a href="#">Trademark Registration</a></li>
@@ -57,12 +57,12 @@
 
                 </ul>
             </div>
-            <div class="footer-gradiant-line">
+            <div class="footerBorder pt-2  sm:w-4/12 md:w-4/12 lg:w-3/12">
 
-                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]">Business Services</h6>
-                <span class="border-b-1 border-teal-800 w-[50%] block"></span>
+                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Business Services</h6>
+                <span class="border-b border-teal-800 w-[50%] block"></span>
 
-                <ul class="QuickLinks space-y-2  pt-4">
+                <ul class="QuickLinks space-y-2 pt-4 ">
                     <li><a href="#">Amazon Brand Registry</a></li>
                     <li><a href="#">Business Formation Solutions</a></li>
                     <li><a href="#">Business Liquidation Services</a></li>
@@ -78,12 +78,12 @@
 
                 </ul>
             </div>
-            <div class="footer-gradiant-line">
+            <div class="footerBorder pt-2  md:w-6/12 lg:w-3/12 xl:w-2/12 ">
 
-                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]">Legal Services</h6>
-                <span class="border-b-1 border-teal-800 w-[50%] block"></span>
+                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Legal Services</h6>
+                <span class="border-b border-teal-800 w-[50%] block"></span>
 
-                <ul class="QuickLinks space-y-2  pt-4">
+                <ul class="QuickLinks space-y-2  pt-4  px-2">
                     <li><a href="#">Amazon Brand Registry</a></li>
                     <li><a href="#">Partnerships & LLPs</a></li>
                     <li><a href="#">Due Diligence Process</a></li>
@@ -96,13 +96,13 @@
 
                 </ul>
             </div>
-            <div class="footer-gradiant-line">
+            <div class=" w-full pt-2 md:w-6/12 lg:w-4/12 xl:w-2/12">
                 {{-- call-us --}}
-                <h6 class="text-white font-RussoOne  text-[clamp(14px,3vw,18px)]">Contact Us</h6>
-                <span class="border-b-1 border-teal-800 w-[50%] block"></span>
+                <h6 class="text-white font-RussoOne  text-[clamp(14px,3vw,18px)]  leading-2">Contact Us</h6>
+                <span class="border-b border-teal-800 w-[50%] block"></span>
 
 
-                <div class="flex gap-2 items-center pt-3">
+                <div class="flex gap-2 items-center pt-3 ">
 
                     <img src="{{ asset('assets/img/Phone2.png') }}" alt="phone-2" width="25px">
 
@@ -138,12 +138,12 @@
                 <div class="mt-2">
                     <span class="text-[13px] text-teal-800">Follow Us:</span>
                     <div class="flex gap-4 mt-3">
-                        <a href="facebook-icon" class="invert rounded-full p-3 border border-1-white"><i
-                                class="fa-brands fa-facebook"></i></a>
-                        <a href="instagram-icon" class="invert rounded-full p-3 border border-1-white"><i
-                                class="fa-brands fa-instagram"></i></i></a>
-                        <a href="linkedin-icon" class="invert rounded-full p-3 border border-1-white"><i
-                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="facebook-icon" class=" rounded-full p-3 border border-white"><i
+                                class="fa-brands fa-facebook invert"></i></a>
+                        <a href="instagram-icon" class=" rounded-full p-3 border border-white"><i
+                                class="fa-brands fa-instagram invert"></i></i></a>
+                        <a href="linkedin-icon" class=" rounded-full p-3 border border-white"><i
+                                class="fa-brands fa-linkedin invert"></i></a>
                     </div>
                 </div>
             </div>

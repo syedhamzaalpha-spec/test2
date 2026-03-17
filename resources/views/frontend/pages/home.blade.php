@@ -6,10 +6,10 @@
             <div class="row ">
                 {{-- col-1 --}}
                 <div class="w-full lg:w-7/12 ">
-                    <h3 class=" text-black md:text-white font-RussoOne text-[clamp(20px,3vw,32px)]">Your <span class="text-teal-600 bg-white">
+                    <h3 class=" text-black md:text-white font-RussoOne text-[clamp(20px,3vw,32px)] leading-snug">Your <span class="text-teal-600 bg-white px-2">
                             Trusted
-                        </span>Trademark & <br>Legal <span class="text-teal-600 bg-white">Advisory</span> Office</h3>
-                    <h5 class=" h-lh  text-black md:text-white font-RussoOne">Protecting Your Brand. Supporting Your
+                        </span>Trademark & <br>Legal <span class="text-teal-600 bg-white px-2">Advisory</span> Office</h3>
+                    <h5 class=" text-black md:text-white font-RussoOne">Protecting Your Brand. Supporting Your
                         Business.
                     </h5>
                     <p class=" text-black md:text-white md:wrap-normal pt-2">Welcome to Trademark Legit, where experience
@@ -54,16 +54,32 @@
                 {{-- col-2 --}}
                 <div class=" lg:max-w-4/12">
                     <img src="{{ asset('assets/img/hero-img.png') }}" alt=""
-                        class=" absolute bottom-0 hidden lg:block lg:right-3 md:right-0 w-[42vw]  h-auto">
+                        class=" absolute bottom-0 hidden lg:block lg:right-3 md:right-0 w-[44vw]  h-auto">
                 </div>
             </div>
         </div>
-
+          
     </section>
+    <div class="murquee-wrapper w-full  overflow-hidden bg-teal-600 text-white bottom-0">
+        <div class="marquee-track flex gap-6 py-3 font-semibold text-nowrap ">
+            <span class="border-r-1  border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+           <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+           <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+            <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+            <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+               <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+                  <span class="border-r-1 border-white pr-10 flex  items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+                   <span class="border-r-1 border-white pr-10 flex  items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+                    <span class="border-r-1 border-white pr-10 flex  items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+            
+    </div>
+    </div> 
+    
+   
     <section class="relative">
 
         <img src="{{ asset('assets/img/about-man-ChOHwkn-.png') }}" alt=""
-            class=" absolute  bg-no-repeat  bottom-0 -left-28 
+            class=" absolute  bg-no-repeat top-0 bottom-0 -left-28 
             w-[42vw] -z-10 hidden xl:block">
         <div class=" container flex ">
             <div class="lg:w-8/12 w-full lg:pl-32">
@@ -128,7 +144,7 @@
                 </div>
                 <div class="bg-[url(/assets/img/card.png)] bg-no-repeat bg-cover bg-center py-10 px-5 ">
                     <div class="flex lg:flex-col space-y-8  gap-3 justify-start items-center sm:items-start gap-3">
-                        <img src="{{ asset('assets/img/Process-1.png') }}" alt="process-1" class="w-15">
+                        <img src="{{ asset('assets/img/Process-2.png') }}" alt="process-1" class="w-15">
                         <h4 class="text-[clamp(22px,3vw,16px)]  text-white">Search for Available Trademark</h4>
                     </div>
                     <p class="pt-3">Our team scans trademark databases with a comprehensive trademark search to check if
@@ -137,7 +153,7 @@
                 </div>
                 <div class="bg-[url(/assets/img/card.png)] bg-no-repeat bg-cover bg-center py-10 px-5 ">
                     <div class="flex lg:flex-col space-y-8  gap-3 justify-start items-center sm:items-start gap-3">
-                        <img src="{{ asset('assets/img/Process-1.png') }}" alt="process-1" class="w-15">
+                        <img src="{{ asset('assets/img/Process-3.png') }}" alt="process-1" class="w-15">
                         <h4 class="text-[clamp(22px,3vw,16px)] text-white">A Detailed Trademark Report</h4>
                     </div>
                     <p class="pt-3">After researching federal and international trademark databases, our team provides a
@@ -300,12 +316,17 @@
         <div class="container">
             <div>
                 <h2 class="text-black "> Choose A Suitable Plan</h2>
-                <p class=" text-[clamp(16px,2vw,22px)] ">Choose from our tailored plans to fit your needs. From basic to
+                <p class=" text-[clamp(18px,2vw,20px)] ">Choose from our tailored plans to fit your needs. From basic to
                     premium, find the option that works for you and let us handle the rest!</p>
             </div>
         </div>
 
         <!-- cards  -->
+        <div class="py-8  gap-4">
+            <button class="hover:bg-teal-600 hover:text-white py-3 focus:border-b-2 focus:border-teal-600 focus:hover:text-white focus:text-teal-600 duration-100  px-5 ">Trademark Registration</button>
+            <button class="hover:bg-teal-600 hover:text-white py-3 px-5 focus:border-b-2 focus:border-teal-600 focus:hover:text-white focus:text-teal-600 duration-100 ">Trademark Search</button>
+
+        </div>
         <div
             class="mx-3 space-y-3 lg:mx-10 grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1  gap-3 [&_img]:invert-0 [&_img]:group-hover:invert">
 
@@ -314,7 +335,7 @@
                 class="group  relative  bg-white rounded-xl border-1 border-teal-600  justify-start hover:bg-teal-600 transition    duration-300  group-hover:bg-teal-600 h-fit">
                 <div class="px-5  pt-10">
                     <span
-                        class="group-hover:border-0 group-hover:text-black  text-teal-600 font-RussoOne border-1  px-4 rounded-md absolute top-[-13] left-[15] bg-white  border-teal-700">Basic</span>
+                        class="group-hover:border-white group-hover:text-black text-teal-600 font-RussoOne border-1  px-4 rounded-md absolute top-[-13] left-[15] bg-white  border-teal-700">Basic</span>
                     <div class="flex justify-start items-center">
 
 
@@ -374,7 +395,7 @@
                 class="group  relative  bg-white rounded-xl border-1 border-teal-600  justify-start hover:bg-teal-600 transition    duration-300  group-hover:bg-teal-600 h-fit">
                 <div class="px-5  pt-10">
                     <span
-                        class="group-hover:border-0 group-hover:text-black  text-teal-600 font-RussoOne border-1  px-4 rounded-md absolute top-[-13] left-[15] bg-white  border-teal-700">Deluxe</span>
+                        class="group-hover:border-white group-hover:text-black  text-teal-600 font-RussoOne border-1  px-4 rounded-md absolute top-[-13] left-[15] bg-white  border-teal-700">Deluxe</span>
                     <div class="flex justify-start items-center">
 
 
@@ -430,7 +451,7 @@
                 class="group  relative   bg-white rounded-xl border-1 border-teal-600  justify-start hover:bg-teal-600 transition    duration-300  group-hover:bg-teal-600 h-fit">
                 <div class="px-5 pt-8">
                     <span
-                        class="group-hover:border-0 group-hover:text-black  text-teal-600 font-RussoOne border-1  px-4 rounded-md absolute top-[-13] left-[15] bg-white  border-teal-700">Premium</span>
+                        class="group-hover:border-white group-hover:text-black  text-teal-600 font-RussoOne border-1  px-4 rounded-md absolute top-[-13] left-[15] bg-white  border-teal-700">Premium</span>
                     <div class="flex justify-start items-center">
 
 
@@ -495,7 +516,7 @@
                 class="group  relative  bg-white rounded-xl border-1 border-teal-600  justify-start hover:bg-teal-600 transition    duration-300  group-hover:bg-teal-600 h-fit">
                 <div class="px-5 pt-8">
                     <span
-                        class="group-hover:border-0 group-hover:text-black  text-teal-600 font-RussoOne text-[14px] border-1  px-4 rounded-md absolute top-[-13] left-[22] bg-white  border-teal-700">Elite
+                        class="group-hover:border-white group-hover:text-black  text-teal-600 font-RussoOne text-[15px] border-1  px-4 rounded-md absolute top-[-13] left-[22] bg-white  border-teal-700">Elite
                         (Global Trademark Filing)</span>
                     <div class="flex justify-start items-center pt-2">
 
@@ -1031,7 +1052,7 @@
             <div class="w-full xl:w-6/12 lg:block hidden ">
 
                 <img src="{{ asset('assets/img/contact.png') }}" alt="contact-sec-img"
-                    class="   bottom-0 absolute right-18 w-[30vw]">
+                    class="   bottom-0 absolute right-18 w-[35vw]">
 
             </div>
         </div>

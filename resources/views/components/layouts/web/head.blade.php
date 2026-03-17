@@ -4,7 +4,7 @@
 <title>{{ $title ?? 'DBA' }}</title>
 <meta name="description" content="{{ $description ?? '' }}">
 <meta name="keywords" content="{{ $keywords ?? '' }}">
-{{-- <link rel="icon" type="images/jpg" href="{{ asset('assets/img/fav.svg') }}"> --}}
+<link rel="icon" type="images/jpg" href="{{ asset('assets/img/Process-3.png') }}">
 <!-- swiper js link -->
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" /> -->
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" /> -->

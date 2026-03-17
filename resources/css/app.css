@@ -393,4 +393,28 @@
      .QuickLinks li :hover{
         color: white;
      }
-  
+.marquee-track{
+   animation: marquee 8s linear infinite;  
+}
+@keyframes marquee{
+    from{
+        transform: translateX(10%);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+.footerBorder{
+    position: relative;
+}
+@media (min-width: 768px){
+.footerBorder::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 1px;
+    height: 50%;
+    background: linear-gradient(to bottom, transparent, #218c88,transparent );
+}
+}

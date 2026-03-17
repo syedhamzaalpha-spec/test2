@@ -54,7 +54,7 @@
 
 
 </div>
-<nav class="bg-[#102322] p-3 fix top-0">
+<nav class="bg-[#102322] p-3">
     <div class="container mx-auto">
 
         <div class="lg:flex justify-between items-center">
