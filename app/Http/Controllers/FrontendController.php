@@ -67,4 +67,14 @@ class FrontendController extends Controller
             ]
         );
     }
+     public function FAQs()
+    {
+        return view(
+            'frontend.pages.FAQs',
+            [
+                'title' => 'Privacy Policy | ',
+                'description' => ''
+            ]
+        );
+    }
 }

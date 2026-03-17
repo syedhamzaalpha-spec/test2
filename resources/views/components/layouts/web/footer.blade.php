@@ -78,7 +78,7 @@
 
                 </ul>
             </div>
-            <div class="footerBorder pt-2  md:w-6/12 lg:w-3/12 xl:w-2/12 ">
+            <div class="footerBorder pt-2 pr-3 md:w-6/12 lg:w-3/12 xl:w-2/12 ">
 
                 <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Legal Services</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>

@@ -22,6 +22,7 @@ Route::get('contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('thankyou', [FrontendController::class, 'thankYou'])->name('thankyou');
 Route::get('privacy-policy', [FrontendController::class, 'privacyPolicy'])->name('privacy-policy');
 Route::get('terms-and-conditions', [FrontendController::class, 'termsAndConditions'])->name('terms-and-conditions');
+Route::get('FAQs', [FrontendController::class, 'FAQs'])->name('FAQs');
 
 
 
