@@ -15,14 +15,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // Default Routes
-Route::get('/', [FrontendController::class, 'home'])->name('/');
+Route::get('home', [FrontendController::class, 'home'])->name('/');
 // Route::get('header', [FrontendController::class, 'header'])->name('header');
 Route::get('about', [FrontendController::class, 'about'])->name('about');
 Route::get('contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('thankyou', [FrontendController::class, 'thankYou'])->name('thankyou');
 Route::get('privacy-policy', [FrontendController::class, 'privacyPolicy'])->name('privacy-policy');
 Route::get('terms-and-conditions', [FrontendController::class, 'termsAndConditions'])->name('terms-and-conditions');
-Route::get('FAQs', [FrontendController::class, 'FAQs'])->name('FAQs');
+Route::get('faqs', [FrontendController::class, 'faqs'])->name('faqs');
+Route::get('blog', [FrontendController::class, 'blog'])->name('blog');
 
 
 

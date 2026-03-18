@@ -17,12 +17,22 @@ class FrontendController extends Controller
             ]
         );
     }
+      public function blog()
+    {
+        return view(
+            'frontend.pages.blog',
+            [
+                'title' => 'Professional Trademark Service | ',
+                'description' => ''
+            ]
+        );
+    }
     public function about()
     {
         return view(
             'frontend.pages.about',
             [
-                'title' => 'About Us | ',
+                'title' => 'About Us | Trademark lagit',
                 'description' => ''
             ]
         );

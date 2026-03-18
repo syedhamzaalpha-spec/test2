@@ -16,8 +16,9 @@
     --font-Poppins: "Poppins", sans-serif;
     --font-RussoOne: "Russo One", sans-serif;
     --font-Montserrat: "Montserrat", sans-serif;
-    --color-primary: #000032;
-    --color-secondary: #00b67a;
+    --color-primary: #0f2422;
+    --color-secondary: #218c88;
+
     --breakpoint-*: initial;
     --breakpoint-sm: 640px;
     --breakpoint-md: 768px;
@@ -314,26 +315,7 @@
     text-align: center;
     color: white;
 }
-/* #menu {
-  display: flex;  
-  flex-direction: row;
-  padding: 10px;
-}
 
-#menu.active {
-  display: flex;  
-} */
-/* .header-horizontal-slider{
-    transform: scroll-left translatex(90%);
-}
-@keyframes scroll-left{
-    0%{
-        transform: translateX(50%);
-    }
-      100%{
-        transform: translateX(50%);
-    }
-} */
 .process-1-img{
     background-image: url(/assets/img/process-bg.png);
     background-size: cover;
@@ -344,26 +326,7 @@
 .card-section{
     top: -50px;
 }
-/* swiper js link */
-  
 
-
-    /* .swiper {
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    } */
-
-    /* .swiper-slide {
-      text-align: center;
-     
-      /* height: calc((100% - 30px) / 2) ; */
-
-      /* Center slide text vertically */
-      /* display: flex;
-      justify-content: center;
-      align-items: center;
-    }  */
      .testimonialSwiper  .swiper-slide-active   {
         background: url(../../public/assets/img/testimonial.png) no-repeat top/cover;
         color: white !important;
@@ -382,10 +345,7 @@
     .iti{
         width: 100% !important;
     }
-    /* .QuickLinks::after{
-        contant: "";
-        border-right: 1px solid #0f2422;
-    } */
+  
      .QuickLinks li {
         font-size: 14px;
         color:#9d9d9d;

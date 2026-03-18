@@ -6,7 +6,8 @@
             <div class="row ">
                 {{-- col-1 --}}
                 <div class="w-full lg:w-7/12 ">
-                    <h3 class=" text-black md:text-white font-RussoOne text-[clamp(20px,3vw,32px)] leading-snug">Your <span class="text-teal-600 bg-white px-2">
+                    <h3 class=" text-black md:text-white font-RussoOne text-[clamp(20px,3vw,32px)] leading-snug">Your <span
+                            class="text-teal-600 bg-white px-2">
                             Trusted
                         </span>Trademark & <br>Legal <span class="text-teal-600 bg-white px-2">Advisory</span> Office</h3>
                     <h5 class=" text-black md:text-white font-RussoOne">Protecting Your Brand. Supporting Your
@@ -58,24 +59,38 @@
                 </div>
             </div>
         </div>
-          
+
     </section>
     <div class="murquee-wrapper w-full  overflow-hidden bg-teal-600 text-white bottom-0">
         <div class="marquee-track flex gap-6 py-3 font-semibold text-nowrap ">
-            <span class="border-r-1  border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
-           <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
-           <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
-            <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
-            <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
-               <span class="border-r-1 border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
-                  <span class="border-r-1 border-white pr-10 flex  items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
-                   <span class="border-r-1 border-white pr-10 flex  items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
-                    <span class="border-r-1 border-white pr-10 flex  items-center gap-2"><img src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
-            
+            <span class="border-r  border-white pr-10 flex items-center gap-2"><img
+                    src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved
+                In Weeks</span>
+            <span class="border-r border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}"
+                    alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+            <span class="border-r border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}"
+                    alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+            <span class="border-r border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}"
+                    alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+            <span class="border-r border-white pr-10 flex items-center gap-2"><img src="{{ asset('assets/img/check.png') }}"
+                    alt="check-icon" width="15px" height="15px"> Get Approved In Weeks</span>
+            <span class="border-r border-white pr-10 flex items-center gap-2"><img
+                    src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved
+                In Weeks</span>
+            <span class="border-r border-white pr-10 flex  items-center gap-2"><img
+                    src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved
+                In Weeks</span>
+            <span class="border-r border-white pr-10 flex  items-center gap-2"><img
+                    src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved
+                In Weeks</span>
+            <span class="border-r border-white pr-10 flex  items-center gap-2"><img
+                    src="{{ asset('assets/img/check.png') }}" alt="check-icon" width="15px" height="15px"> Get Approved
+                In Weeks</span>
+
+        </div>
     </div>
-    </div> 
-    
-   
+
+
     <section class="relative">
 
         <img src="{{ asset('assets/img/about-man-ChOHwkn-.png') }}" alt=""
@@ -182,7 +197,8 @@
                                 src="{{ asset('assets/img/chevron-right-black.svg') }}" alt=""
                                 width="12">Official USPTO Filing</li>
                         <li class="flex gap-2 text-black font-semibold"><img
-                                src="{{ asset('assets/img/chevron-right-black.svg') }}" alt="" width="12">U.S.
+                                src="{{ asset('assets/img/chevron-right-black.svg') }}" alt=""
+                                width="12">U.S.
                             Licensed Attorneys</li>
                         <li class="flex gap-2 text-black font-semibold"><img
                                 src="{{ asset('assets/img/chevron-right-black.svg') }}" alt=""
@@ -323,8 +339,12 @@
 
         <!-- cards  -->
         <div class="py-8  gap-4">
-            <button class="hover:bg-teal-600 hover:text-white py-3 focus:border-b-2 focus:border-teal-600 focus:hover:text-white focus:text-teal-600 duration-100  px-5 ">Trademark Registration</button>
-            <button class="hover:bg-teal-600 hover:text-white py-3 px-5 focus:border-b-2 focus:border-teal-600 focus:hover:text-white focus:text-teal-600 duration-100 ">Trademark Search</button>
+            <button
+                class="hover:bg-teal-600 hover:text-white py-3 focus:border-b-2 focus:border-teal-600 focus:hover:text-white focus:text-teal-600 duration-100  px-5 ">Trademark
+                Registration</button>
+            <button
+                class="hover:bg-teal-600 hover:text-white py-3 px-5 focus:border-b-2 focus:border-teal-600 focus:hover:text-white focus:text-teal-600 duration-100 ">Trademark
+                Search</button>
 
         </div>
         <div
@@ -525,7 +545,8 @@
 
                     </div>
                     <div class="text-left  pb-6 py-3  border-b-1  group-hover:border-white border-teal-700 ">
-                        <p class="group-hover:text-white pt-4">Get priority attention for International Trademark filing with
+                        <p class="group-hover:text-white pt-4">Get priority attention for International Trademark filing
+                            with
                             <span class="text-black font-bold"> the fastest possible processing time.
                         </p>
                     </div>
@@ -596,28 +617,31 @@
 
     {{-- amazon-brand section --}}
     <section class="container">
-        <div class="row">
+        <div class="row items-center">
             <div class=" lg:w-7/12 w-full">
-                <div class="leading-tight">
-                    <h2 class="text-[clamp(24px,3vw,36px)] font-RussoOne leading-tight">Amazon <span
+                <div>
+                    <h2 class="text-[clamp(24px,3vw,36px)] font-RussoOne leading-0">Amazon <span
                             class="text-teal-600">Brand</span><span class="text-teal-600 pr-2"><br>Registry</span>Service
                         In Just <span class=" text-teal-600 text-6xl">$399</span></h2>
 
                 </div>
                 <div>
-                    <p class="text-black"> Protect your brand and enhance your presence on Amazon with the Amazon Brand
+                    <p> Protect your brand and enhance your presence on Amazon with the Amazon Brand
                         Registry. Gain access to powerful tools that help you manage and protect your brand, ensuring
                         accurate representation and increasing customer trust. Join now to unlock advanced features designed
                         to help you grow your business and stand out in the marketplace.</p>
                 </div>
-                <div class="flex gap-6 items-start sm:items-center flex-col lg:flex-row">
-                    <div>
+                <div class="flex gap-6 items-start sm:items-center flex-col lg:flex-row py-5">
+                    
                         <button
                             class="bg-teal-600 rounded-full px-8 py-3 text-white font-bold text-xl hover:bg-black transition duration-400  ">Get
                             Started</button>
-                    </div>
+                    
                     <div>
-                        <a href="#"class="text-black font-bold text-[24px] hover:text-teal-600 transition duration-300 flex gap-2"> <img src="{{ asset('assets/img/phone.png') }}" alt="phone-img" class="invert w-6 h-auto object-contain">(773)
+                        <a
+                            href="#"class="text-black font-bold text-[24px] hover:text-teal-600 transition duration-300 flex gap-2">
+                            <img src="{{ asset('assets/img/phone.png') }}" alt="phone-img"
+                                class="invert w-6 h-auto object-contain">(773)
                             636-2167</a>
                     </div>
                 </div>
@@ -636,7 +660,7 @@
             <div class="flex flex-col lg:flex-row  lg:justify-between justify-center">
                 <div>
                     <h3 class="text-white [clamp(16px,3vw,18px)]">Disputes Are Inevitable <br class="md:block"> <span
-                                class="text-black">Protect Your Brand Before They Strike.</span></h3>
+                            class="text-black">Protect Your Brand Before They Strike.</span></h3>
                     <p class="text-white">Complete Your <span class="font-bold">Trademark Registration </span> in Just 3
                         Straightforward Steps.</p>
                 </div>
@@ -646,7 +670,7 @@
                         Your Rights In Just $38</button>
                     <div class="flex justify-center items-center mt-3"> <a href="#"
                             class=" font-bold text-[24px] text-white hover:text-black transition duration-300 flex gap-3">
-                            <img src="{{ asset('assets/img/phone.png') }}" alt="phone" 
+                            <img src="{{ asset('assets/img/phone.png') }}" alt="phone"
                                 class="object-contain w-7  ">(773) 636-2167</a></div>
 
                 </div>

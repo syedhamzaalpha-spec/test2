@@ -75,15 +75,15 @@
                 class="menu hidden flex-col mt-4 space-y-4 md:mt-0 lg:flex md:flex-row md:items-center md:justify-between justify-center text-center md:space-y-0">
 
                 <div class="flex flex-col md:flex-row md:gap-6 text-lg items-center">
-                    <a href="#" class="text-white hover:text-teal-400">Home</a>
-                    <a href="#" class="text-white hover:text-teal-400">About</a>
+                    
+                   <a href="home" class="text-white hover:text-teal-400">Home</a> 
+                    <a href="about" class="text-white hover:text-teal-400">About</a>
                     <a href="#" class="text-white hover:text-teal-400">Trademark Services</a>
                     <a href="#" class="text-white hover:text-teal-400">Business Services</a>
-                    <a href="#" class="text-white hover:text-teal-400">Contact</a>
-                    <a href="#" class="text-white hover:text-teal-400">Blog</a>
-                    <a href="#" class="text-white hover:text-teal-400">FAQs</a>
-                    <a href="#"
-                        class="border text-white px-4 py-2 rounded-full hover:bg-white hover:text-[#102322] transition">
+                    <a href="contact" class="text-white hover:text-teal-400">Contact</a>
+                    <a href="blog" class="text-white hover:text-teal-400">Blog</a>
+                    <a href="faqs" class="text-white hover:text-teal-400">FAQs</a>
+                    <a href="#" class="border text-white px-4 py-2 rounded-full hover:bg-white hover:text-[#102322] transition">
                         Free Consultation
                     </a>
                 </div>
