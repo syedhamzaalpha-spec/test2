@@ -20,25 +20,25 @@
            <p class="text-[clamp(18px,3vw,22px)] text-white ">Whether You Have Questions, Need Guidance, Or Want To Get Started With Your Trademark Registration, Our Team Is Ready To Assist You.</p>
         </div>
 
-        <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-3">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-5">
             <div class="group">
-            <div class=" border border-white rounded-lg py-9 px-3 text-center group-hover:bg-white transition-all  group-hover:-translate-y-1">
-                <h3 class="text-white text-[clamp(14px,2.5vw,18px)] flex gap-2 justify-center items-center group-hover:text-black"><img src="{{ asset('assets/img/about/phone.svg') }}" alt="" class="group-hover:invert-100">Contact Number</h3>
+            <div class=" border border-white rounded-lg py-9 px-7 text-center group-hover:bg-white transition-all  group-hover:-translate-y-1">
+                <h3 class="text-white text-[clamp(14px,2.5vw,18px)] flex gap-2 justify-center items-center group-hover:text-black"><img src="{{ asset('assets/img/about/phone.svg') }}" alt="" class="group-hover:invert-100 w-5">Contact Number</h3>
                 <p class="text-white group-hover:text-black">Reach Us on Call At (773) 636-2167. We Will Assist You in the Best way possible</p>
                 <button class=" rounded-lg px-5 py-3 bg-black text-white font-bold mt-3 group-hover:bg-secondary group-hover:text-white hover:px-8 duration-500">Call Now</button>
             </div>
             </div>
              <div class="group">
             <div class=" border border-white rounded-lg py-9 px-3 text-center group-hover:bg-white transition-all  group-hover:-translate-y-1">
-                <h3 class="text-white text-[clamp(14px,2.5vw,18px)] flex gap-2 justify-center items-center group-hover:text-black"><img src="{{ asset('assets/img/about/phone.svg') }}" alt="" class="group-hover:invert-100">Contact Number</h3>
-                <p class="text-white group-hover:text-black">Reach Us on Call At (773) 636-2167. We Will Assist You in the Best way possible</p>
+                <h3 class="text-white text-[clamp(14px,2.5vw,18px)] flex gap-2 justify-center items-center group-hover:text-black"><img src="{{ asset('assets/img/contact/email.svg') }}" alt="" class="group-hover:invert-100 w-5">Email Address</h3>
+                <p class="text-white group-hover:text-black">Reach Us On Email At sales@trademarklegit.com We Look Forward To Assisiting You!</p>
                 <button class=" rounded-lg px-5 py-3 bg-black text-white font-bold mt-3 group-hover:bg-secondary group-hover:text-white hover:px-8 duration-500">Call Now</button>
             </div>
             </div>
              <div class="group">
             <div class=" border border-white rounded-lg py-9 px-3 text-center group-hover:bg-white transition-all  group-hover:-translate-y-1">
-                <h3 class="text-white text-[clamp(14px,2.5vw,18px)] flex gap-2 justify-center items-center group-hover:text-black"><img src="{{ asset('assets/img/about/phone.svg') }}" alt="" class="group-hover:invert-100">Contact Number</h3>
-                <p class="text-white group-hover:text-black">Reach Us on Call At (773) 636-2167. We Will Assist You in the Best way possible</p>
+                <h3 class="text-white text-[clamp(14px,2.5vw,18px)] flex gap-2 justify-center items-center group-hover:text-black"><img src="{{ asset('assets/img/contact/chat.svg') }}" alt="" class="group-hover:invert-100 w-5">Live Chat</h3>
+                <p class="text-white group-hover:text-black">Got a Query? Tap the chat button below to connect with us. we are always here to help!</p>
                 <button class=" rounded-lg px-5 py-3 bg-black text-white font-bold mt-3 group-hover:bg-secondary group-hover:text-white hover:px-8 duration-500">Call Now</button>
             </div>
             </div>

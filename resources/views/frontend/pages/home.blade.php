@@ -2,7 +2,7 @@
 @section('main-content')
     <section
         class="ralative bg-cover bg-center lg:h-[calc(100dvh-90px)]  bg-no-repeat bg-[#cbe3e1] md:bg-[url(/assets/img/hero.jpg)]">
-        <div class="container ">
+        <div class="container py-10">
             <div class="row ">
                 {{-- col-1 --}}
                 <div class="w-full lg:w-7/12 ">
@@ -13,7 +13,7 @@
                     <h5 class=" text-black md:text-white font-RussoOne">Protecting Your Brand. Supporting Your
                         Business.
                     </h5>
-                    <p class=" text-black md:text-white md:wrap-normal pt-2">Welcome to Trademark Legit, where experience
+                    <p class=" text-black md:text-white md:wrap-normal  text-[clamp(14,3vw,16px)]">Welcome to Trademark Legit, where experience
                         meets
                         precision. We provide
                         end-to-end trademark registration services and a full spectrum of legal counsel tailored for
@@ -39,7 +39,7 @@
                     <div class="flex justify-start gap-5 mt-5 items-center">
                         <div>
                             <butto
-                                class="bg-teal-600 hover:bg-white hover:text-teal-600  duration-400 py-3 px-10 rounded-full text-white font-bold">
+                                class="bg-teal-600   hover:bg-white hover:text-teal-600  duration-400 py-3 px-10 rounded-full text-white font-bold">
                                 Get Start</button>
                         </div>
                         <div>
@@ -144,7 +144,7 @@
     </section>
 
     {{-- card-section-start --}}
-    <section class="-mt-[15rem]">
+    <section>
         <div class="container">
             <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-3 lg:px-[5rem]">
                 <div class="bg-[url(/assets/img/card.png)] bg-no-repeat bg-cover bg-center py-10 px-5 ">
@@ -178,9 +178,9 @@
             </div>
         </div>
     </section>
-    {{-- card-section-stop --}}
+    
 
-
+    {{-- Explore Our Services --}}
     <section>
         <div class="container mx-auto flex flex-col lg:flex-row">
             <div class=" lg:w-6/12 w-full px-2 py-5">
@@ -300,6 +300,7 @@
         </div>
     </section>
 
+    {{-- 3 cards --}}
     <section class="bg-[url('assets/img/cta.png')] bg-no-repeat bg-cover bg-center">
         <div class="container flex md:flex-col lg:flex-row">
             {{-- left-side --}}
@@ -327,7 +328,7 @@
 
 
 
-    <!-- price-section -->
+    <!-- price-section-start-->
     <section class="bg-[#cbe3e1] text-center">
         <div class="container">
             <div>
@@ -337,7 +338,7 @@
             </div>
         </div>
 
-        <!-- cards  -->
+
         <div class="py-8  gap-4">
             <button
                 class="hover:bg-teal-600 hover:text-white py-3 focus:border-b-2 focus:border-teal-600 focus:hover:text-white focus:text-teal-600 duration-100  px-5 ">Trademark
@@ -348,7 +349,7 @@
 
         </div>
         <div
-            class="mx-3 space-y-3 lg:mx-10 grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1  gap-3 [&_img]:invert-0 [&_img]:group-hover:invert">
+            class="mx-3 space-y-3 lg:mx-10 grid lg:grid-cols-4 md:grid-cols-2  sm:grid-cols-2 grid-cols-1 md:gap-10 xs:mx-15 md:mx-15 gap-3 lg:gap-3 [&_img]:invert-0 [&_img]:group-hover:invert">
 
 
             <div
@@ -359,8 +360,8 @@
                     <div class="flex justify-start items-center">
 
 
-                        <span class="font-RussoOne text-8xl text-teal-600 group-hover:text-white ">$38</span>
-                        <span class="group-hover:text-white">+Govt. <br> Fee</span>
+                        <span class="price-border pr-5 font-RussoOne text-8xl text-teal-600 group-hover:text-white text[clamp(86px,4vw,96px)]">$38</span>
+                        <span class="group-hover:text-white text-secondary">+Govt. <br> Fee</span>
                     </div>
                     <div class="text-left  pb-5 py-3   border-b-1  group-hover:border-white border-teal-700 ">
                         <p class="group-hover:text-white">Get Your Trademark Registration Serial Number in<span
@@ -409,7 +410,7 @@
                 </div>
             </div>
 
-            {{-- second card --}}
+           
 
             <div
                 class="group  relative  bg-white rounded-xl border-1 border-teal-600  justify-start hover:bg-teal-600 transition    duration-300  group-hover:bg-teal-600 h-fit">
@@ -419,8 +420,8 @@
                     <div class="flex justify-start items-center">
 
 
-                        <span class="font-RussoOne text-8xl text-teal-600 group-hover:text-white ">$149</span>
-                        <span class="group-hover:text-white">+Govt. <br> Fee</span>
+                        <span class="font-RussoOne text-8xl text-teal-600 group-hover:text-white text[clamp(86px,4vw,96px)]">$149</span>
+                        <span class="group-hover:text-white text-secondary">+Govt. <br> Fee</span>
                     </div>
                     <div class="text-left  pb-10 py-3 border-b-1  group-hover:border-white border-teal-700 ">
                         <p class="group-hover:text-white">Get Your Trademark Registration Serial Number in <span
@@ -475,8 +476,8 @@
                     <div class="flex justify-start items-center">
 
 
-                        <span class="font-RussoOne text-8xl text-teal-600 group-hover:text-white ">$249</span>
-                        <span class="group-hover:text-white">+Govt. <br> Fee</span>
+                        <span class="font-RussoOne text-8xl text-teal-600 group-hover:text-white text[clamp(86px,4vw,96px)]">$249</span>
+                        <span class="group-hover:text-white text-secondary">+Govt. <br> Fee</span>
                     </div>
                     <div class="text-left  pb-5 py-3  border-b-1  group-hover:border-white border-teal-700 ">
                         <p class="group-hover:text-white">Get Your Trademark Serial Number on the <span
@@ -614,8 +615,9 @@
 
         </div>
     </section>
-
-    {{-- amazon-brand section --}}
+    
+    
+    {{-- amazon-brand section start --}}
     <section class="container">
         <div class="row items-center">
             <div class=" lg:w-7/12 w-full">
@@ -653,8 +655,9 @@
 
         </div>
     </section>
-
-    <section class="bg-[url(/assets/img/cta-2.png)] bg-cover bg-no-repeat bg-center">
+     
+   
+     <section class="bg-[url(/assets/img/cta-2.png)] bg-cover bg-no-repeat bg-center">
         <div class="container">
 
             <div class="flex flex-col lg:flex-row  lg:justify-between justify-center">
@@ -677,7 +680,9 @@
             </div>
         </div>
     </section>
-    {{-- client experience section --}}
+   
+   
+    {{-- clint feed back section start--}}
     <section>
         <div class="container">
             <div>
@@ -861,7 +866,7 @@
 
         </div>
     </section>
-
+    
 
     <section class="bg-[#cbe3e1]  ">
         <div class="container flex flex-col lg:flex-row ">

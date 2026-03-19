@@ -23,7 +23,7 @@
     <div class="container">
         <div class="flex flex-wrap py-4 border-y border-teal-900">
           
-            <div class="footerBorder pt-2 p-5 sm:w-3/12 md:w-4/12 lg:w-2/12">
+            <div class="footerBorder  pt-5 px-2 w-full  xs:w-1/2 md:w-[20%] lg:w-1/7 ">
                 <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)] leading-2">Quick Links</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
 
@@ -38,7 +38,7 @@
 
                 </ul>
             </div>
-            <div class="footerBorder pt-2  sm:w-5/12 md:w-4/12 lg:w-3/12">
+            <div class="footerBorder pt-5 px-3 w-full xs:w-1/2  md:w-[40%] lg:w-1/4 ">
 
                 <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Trademark Registration</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
@@ -57,7 +57,7 @@
 
                 </ul>
             </div>
-            <div class="footerBorder pt-2  sm:w-4/12 md:w-4/12 lg:w-3/12">
+            <div class="footerBorder pt-5 px-5 w-full xs:w-1/2  md:w-[40%] lg:w-1/4 ">
 
                 <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Business Services</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
@@ -78,7 +78,7 @@
 
                 </ul>
             </div>
-            <div class="footerBorder pt-2 pr-3 md:w-6/12 lg:w-3/12 xl:w-2/12 ">
+            <div class="footerBorder pt-5 px-3 w-full xs:w-1/2  md:w-1/3 lg:w-1/5 ">
 
                 <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Legal Services</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
@@ -96,7 +96,7 @@
 
                 </ul>
             </div>
-            <div class=" w-full pt-2 md:w-6/12 lg:w-4/12 xl:w-2/12">
+            <div class="  pt-5 px-3 w-full xs:h-1/2   md:w-1/3 lg:w-1/7 ">
                 {{-- call-us --}}
                 <h6 class="text-white font-RussoOne  text-[clamp(14px,3vw,18px)]  leading-2">Contact Us</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
@@ -123,7 +123,7 @@
                     <img src="{{ asset('assets/img/location.png') }}" alt="email" width="25px">
                     <div>
                         <span class="text-teal-700 block text-[14px]">Address</span>
-                        <a href="#" class="text-[#9d9d9d] hover:text-white text-[16px] ">161 N Clark St, Chicago,
+                        <a href="#" class="text-[#9d9d9d] hover:text-white text-[clamp(12px,2vw,14px)] ">161 N Clark St, Chicago,
                             IL 60601</a>
                     </div>
                 </div>

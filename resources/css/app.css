@@ -20,6 +20,7 @@
     --color-secondary: #218c88;
 
     --breakpoint-*: initial;
+    --breakpoint-xs: 418px;
     --breakpoint-sm: 640px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 1024px;
@@ -377,4 +378,27 @@
     height: 50%;
     background: linear-gradient(to bottom, transparent, #218c88,transparent );
 }
+}
+
+.dropup-tip::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #218c88;
+    top: -3%;
+    left: 20%;
+    z-index: -1001;
+    transform: rotate(224deg);
+}
+.price-border{
+    position:relative;
+}
+.price-border::after{
+    content: "";
+    position: absolute;
+    height:80%;
+    width:1px;
+    background:linear-gradient(to top, transparent,#218c88,transparent);
+    right: 5%;
 }

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // Default Routes
-Route::get('home', [FrontendController::class, 'home'])->name('/');
+Route::get('/', [FrontendController::class, 'home'])->name('home');
 // Route::get('header', [FrontendController::class, 'header'])->name('header');
 Route::get('about', [FrontendController::class, 'about'])->name('about');
 Route::get('contact', [FrontendController::class, 'contact'])->name('contact');
