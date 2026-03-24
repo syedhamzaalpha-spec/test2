@@ -50,7 +50,7 @@
         </div>
 
     </section>
-    
+
 
     {{-- out-expertice --}}
 
@@ -73,68 +73,98 @@
 
     {{-- start Why Choose Trademark Legit? --}}
     <section>
-        <div class="container ">
+
+    </section>
+    <section>
+        <div class="container  ">
+
             <div class="text-center  py-5">
                 <h2>Why Choose <span class="text-secondary">Trademark Legit?</span></h2>
                 <p>Choosing Trademark Legit Means Choosing Peace Of Mind. We Combine Affordability, Accuracy, And
-                    Personalized Support To Help You Protect Your Brand With Confidence. Our Streamlined Process Eliminates
-                    The Guesswork From Trademark Registration, While Our Expert Team Ensures Every Detail Is Handled With
+                    Personalized Support To Help You Protect Your Brand With Confidence. Our Streamlined Process
+                    Eliminates
+                    The Guesswork From Trademark Registration, While Our Expert Team Ensures Every Detail Is Handled
+                    With
                     Precision.</p>
             </div>
-            <div class="absolute inset-0  flex justify-center items-center w-[50%] ">
-                   <svg width="100%" height="100%" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid meet" class="max-w-7xl h-full">
+            <div class="absolute inset-0 left-1/2 top-1/2 -translate-y-35 -translate-x-1/2  w-[59%] hidden lg:block ">
+                <svg width="100%" height="100%" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid meet"
+                    class="max-w-7xl h-full">
 
-                       <ellipse cx="600" cy="350" rx="250" ry="220" fill="rgb(204 251 241 / 0.4)" transform="rotate(-15 600 350)"></ellipse>
+                    <ellipse cx="600" cy="350" rx="250" ry="220" fill="rgb(204 251 241 / 0.4)"
+                        transform="rotate(-15 600 350)"></ellipse>
 
-                       <line x1="290" y1="110" x2="560" y2="290" stroke="#0d9488" stroke-width="4"></line>
-                       <line x1="290" y1="350" x2="540" y2="350" stroke="#0d9488" stroke-width="4"></line>
-                       <line x1="290" y1="590" x2="560" y2="410" stroke="#0d9488" stroke-width="4"></line>
-                       <line x1="910" y1="110" x2="640" y2="290" stroke="#0d9488" stroke-width="4"></line>
-                       <line x1="910" y1="350" x2="660" y2="350" stroke="#0d9488" stroke-width="4"></line>
-                       <line x1="910" y1="590" x2="640" y2="410" stroke="#0d9488" stroke-width="4"></line>
-                   </svg>
-               </div>
-            <figure class="relative flex lg:flex-row flex:col justify-between  gap-2">
-                <div class="space-y-10 md:w-4/12 w-6/12">
-                    <div class="border-2 border-secondary px-3 py-5 flex flex-col ">
-                    <h5 class="text-secondary">Top-Notch Expertise</h5>
-                    <p>Our Team Brings In-Depth Legal Knowledge And Procedures To Ensure Your Issues Are Adequately Addressed.</p>
+                    <line x1="290" y1="110" x2="560" y2="290" stroke="#0d9488"
+                        stroke-width="4">
+                    </line>
+                    <line x1="290" y1="350" x2="540" y2="350" stroke="#0d9488"
+                        stroke-width="4">
+                    </line>
+                    <line x1="290" y1="590" x2="560" y2="410" stroke="#0d9488"
+                        stroke-width="4">
+                    </line>
+                    <line x1="910" y1="110" x2="640" y2="290" stroke="#0d9488"
+                        stroke-width="4">
+                    </line>
+                    <line x1="910" y1="350" x2="660" y2="350" stroke="#0d9488"
+                        stroke-width="4">
+                    </line>
+                    <line x1="910" y1="590" x2="640" y2="410" stroke="#0d9488"
+                        stroke-width="4">
+                    </line>
+                </svg>
+            </div>
+            <div class="relative flex  justify-between  gap-2">
+                <div class="space-y-10 lg:w-4/12 sm:w-6/12 w-full">
+                    <div class="border-2 border-secondary px-3 py-5 flex flex-col hover:bg-secondary hover:scale-110">
+                        <h5 class="text-secondary hover:text-white">Top-Notch Expertise</h5>
+                        <p class="hover:text-white">Our Team Brings In-Depth Legal Knowledge And Procedures To Ensure Your Issues Are Adequately
+                            Addressed.</p>
                     </div>
                     <div class="border-2 border-secondary px-3 py-5 flex flex-col">
-                    <h5 class="text-secondary">Insight-Backed Solutions</h5>
-                    <p>We Utilize Comprehensive Research And Data-Driven Insights To Strengthen Your Trademark Applications And Strategies.</p>
+                        <h5 class="text-secondary">Insight-Backed Solutions</h5>
+                        <p>We Utilize Comprehensive Research And Data-Driven Insights To Strengthen Your Trademark
+                            Applications And Strategies.</p>
                     </div>
                     <div class="border-2 border-secondary px-3 py-5 flex flex-col">
-                    <h5 class="text-secondary">Affordable & Transparent</h5>
-                    <p>We Offer Competitive Pricing Without Hidden Fees, Making Professional Trademark Services Accessible To All.</p>
+                        <h5 class="text-secondary">Affordable & Transparent</h5>
+                        <p>We Offer Competitive Pricing Without Hidden Fees, Making Professional Trademark Services
+                            Accessible To All.</p>
                     </div>
                 </div>
-                <div class=" w-full hidden md:block  md:w-4/12">
-                  <div class="flex justify-center items-center p-8   ">
-                    <img src="{{ asset('assets/img/about/circle-img (1).png') }}" alt="circal-img" class="w-[20vw]  border-4 border-secondary rounded-full p-2 shadow-secondary absolute top-[29%]">
-                  </div>
-                </div>
-                <div class="space-y-10 md:w-4/12 w-6/12">
-                    <div class="border-2 border-secondary px-3 py-5 flex flex-col">
-                    <h5 class="text-secondary">Driven by Results</h5>
-                    <p>We Deliver The Best Results, Successful Registrations, Strong Brand Protection, And Long-Term Client Satisfaction.</p>
-                    </div>
-                    <div class="border-2 border-secondary px-3 py-5 flex flex-col">
-                    <h5 class="text-secondary">Strategic Brand Protection</h5>
-                    <p>Every Case Is Guided By A Personalized Approach To Ensure Your Brand Is Safeguarded With Full Precision.</p>
-                    </div>
-                    <div class="border-2 border-secondary px-3 py-5 flex flex-col">
-                    <h5 class="text-secondary">Simple, Stress-Free Process</h5>
-                    <p>Our Unique Platform And Dedicated Support Make It Easy To Navigate Every Step Of The Process With Confidence.</p>
+
+                <div class=" w-full hidden lg:block  md:w-4/12">
+                    <div class="flex justify-center items-center p-8   ">
+                        <img src="{{ asset('assets/img/about/circle-img (1).png') }}" alt="circal-img"
+                            class="object-contain w-60  border-4 border-secondary rounded-full p-2 shadow-secondary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     </div>
                 </div>
-            </figure>
+                <div class="space-y-10 lg:w-4/12 sm:w-6/12 w-full">
+                    <div class="border-2 border-secondary px-3 py-5 flex flex-col">
+                        <h5 class="text-secondary">Driven by Results</h5>
+                        <p>We Deliver The Best Results, Successful Registrations, Strong Brand Protection, And Long-Term
+                            Client Satisfaction.</p>
+                    </div>
+                    <div class="border-2 border-secondary px-3 py-5 flex flex-col">
+                        <h5 class="text-secondary">Strategic Brand Protection</h5>
+                        <p>Every Case Is Guided By A Personalized Approach To Ensure Your Brand Is Safeguarded With Full
+                            Precision.</p>
+                    </div>
+                    <div class="border-2 border-secondary px-3 py-3 lg:py-5 flex flex-col">
+                        <h5 class="text-secondary">Simple, Stress-Free Process</h5>
+                        <p>Our Unique Platform And Dedicated Support Make It Easy To Navigate Every Step Of The Process
+                            With
+                            Confidence.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
     <x-cta2 />
     <x-layouts.web.feedback />
-     <x-layouts.web.faqs />
-     <x-layouts.web.helpsection />
-    
+    <x-layouts.web.faqs />
+    <x-layouts.web.helpsection />
+
     {{-- end Why Choose Trademark Legit? --}}
 @endsection
