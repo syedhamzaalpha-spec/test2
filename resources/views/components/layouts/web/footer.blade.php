@@ -1,4 +1,4 @@
-<footer class="bg-[#0f2422]">
+<footer class="bg-primary">
     <div class="container ">
         <div class=" lg:flex  pt-5  border-teal-900">
             <div class="w-full lg:w-2/12">
@@ -24,7 +24,7 @@
         <div class="flex flex-wrap py-4 border-y border-teal-900">
           
             <div class="footerBorder  pt-5 px-2 w-full  xs:w-1/2 md:w-[20%] lg:w-1/7 ">
-                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)] leading-2">Quick Links</h6>
+                <h6 class="text-white font-RussoOne text-[clamp(16px,3vw,18px)] leading-2">Quick Links</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
 
                 <ul class="QuickLinks space-y-2 pt-4">
@@ -40,7 +40,7 @@
             </div>
             <div class="footerBorder pt-5 px-3 w-full xs:w-1/2  md:w-[40%] lg:w-1/4 ">
 
-                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Trademark Registration</h6>
+                <h6 class="text-white font-RussoOne text-[clamp(16px,3vw,18px)]  leading-2">Trademark Registration</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
 
                 <ul class="QuickLinks space-y-2  pt-4">
@@ -59,7 +59,7 @@
             </div>
             <div class="footerBorder pt-5 px-5 w-full xs:w-1/2  md:w-[40%] lg:w-1/4 ">
 
-                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Business Services</h6>
+                <h6 class="text-white font-RussoOne text-[clamp(16px,3vw,18px)]  leading-2">Business Services</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
 
                 <ul class="QuickLinks space-y-2 pt-4 ">
@@ -80,7 +80,7 @@
             </div>
             <div class="footerBorder pt-5 px-3 w-full xs:w-1/2  md:w-1/3 lg:w-1/5 ">
 
-                <h6 class="text-white font-RussoOne text-[clamp(14px,3vw,18px)]  leading-2">Legal Services</h6>
+                <h6 class="text-white font-RussoOne text-[clamp(16px,3vw,18px)]  leading-2">Legal Services</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
 
                 <ul class="QuickLinks space-y-2  pt-4  px-2">
@@ -98,7 +98,7 @@
             </div>
             <div class="  pt-5 px-3 w-full xs:h-1/2   md:w-1/3 lg:w-1/7 ">
                 {{-- call-us --}}
-                <h6 class="text-white font-RussoOne  text-[clamp(14px,3vw,18px)]  leading-2">Contact Us</h6>
+                <h6 class="text-white font-RussoOne  text-[clamp(16px,3vw,18px)]  leading-2">Contact Us</h6>
                 <span class="border-b border-teal-800 w-[50%] block"></span>
 
 

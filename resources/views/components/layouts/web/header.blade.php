@@ -74,10 +74,10 @@
             <div
                 class=" menu hidden flex-col mt-4 space-y-4 md:mt-0 lg:flex md:flex-row md:items-center md:justify-between justify-center text-center md:space-y-0 ">
 
-                <div class="flex flex-col md:flex-row md:gap-6 text-lg items-center">
+                <div class="flex flex-col lg:flex-row gap-3 text-lg items-center justify-center text-center mx-auto">
 
-                    <a href="/" class="text-white active:text-secondary hover:text-secondary text-[clamp(14px,2vw,18px)]">Home</a>
-                    <a href="about" class="text-white hover:text-secondary text-[clamp(14px,2vw,18px)]">About</a>
+                    <a href="/" class="text-white active:text-secondary hover:text-secondary text-[clamp(14px,2vw,16px)]">Home</a>
+                    <a href="about" class="text-white hover:text-secondary text-[clamp(14px,2vw,16px)]">About</a>
                     {{-- <a href="#" class="text-white hover:text-secondary">Trademark Services</a> --}}
                     {{-- dropdownButtonStart --}}
                     <div class="relative group " data-twe-dropdown-ref>
@@ -183,9 +183,10 @@
                     </div>
                     {{-- dropdownButtonEnd --}}
                     {{-- <a href="#" class="text-white hover:text-secondary ">Business Services</a> --}}
-                    <a href="contact" class="text-white hover:text-secondary text-[clamp(14px,2vw,18px)]">Contact</a>
-                    <a href="blog" class="text-white hover:text-secondary text-[clamp(14px,2vw,18px)]>Blog</a>
-                    <a href="faqs" class="text-white hover:text-secondary text-[clamp(14px,2vw,18px)]">FAQs</a>
+                    <a href="contact" class="text-white hover:text-secondary text-[clamp(14px,2vw,16px)]">Contact</a>
+                    <a href="blog" class="text-white hover:text-secondary text-[clamp(14px,2vw,16px)]">Blog</a>
+                   
+ <a href="faqs" class="text-white hover:text-secondary text-[clamp(14px,2vw,16px)]">FAQs</a>
                     <a href="#" 
                         class="text-[clamp(12px,3vw,16px)]  border text-white px-4 py-2 rounded-full  hover:bg-white hover:text-primary transition duration-300">
                         Free Consultation

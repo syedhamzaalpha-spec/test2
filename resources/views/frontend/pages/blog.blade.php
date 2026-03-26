@@ -10,7 +10,7 @@
                         empowered on your trademark and brand protection journey.</p>
                 </div>
             </div>
-            <div class="w-full lg:w-5/12">
+            <div class="w-full hidden lg:block lg:w-5/12 ">
                 <img src="{{ asset('assets/img/blog/blog-banner.png') }}" alt="blog-banner"
                     class="w-[40vw] absolute bottom-0 right-3">
             </div>

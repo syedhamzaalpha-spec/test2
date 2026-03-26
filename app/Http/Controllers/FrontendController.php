@@ -22,7 +22,7 @@ class FrontendController extends Controller
         return view(
             'frontend.pages.blog',
             [
-                'title' => 'Professional Trademark Service | ',
+                'title' => 'blog| ',
                 'description' => ''
             ]
         );
@@ -32,7 +32,7 @@ class FrontendController extends Controller
         return view(
             'frontend.pages.about',
             [
-                'title' => 'About Us | Trademark lagit',
+                'title' => 'About Us | ',
                 'description' => ''
             ]
         );

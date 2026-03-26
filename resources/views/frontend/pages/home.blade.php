@@ -144,7 +144,7 @@
     </section>
 
     {{-- card-section-start --}}
-    <section>
+    <section class="-mt-50">
         <div class="container">
             <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-3 lg:px-[5rem]">
                 <div class="bg-[url(/assets/img/card.png)] bg-no-repeat bg-cover bg-center py-10 px-5 ">
@@ -158,7 +158,7 @@
 
                 </div>
                 <div class="bg-[url(/assets/img/card.png)] bg-no-repeat bg-cover bg-center py-10 px-5 ">
-                    <div class="flex lg:flex-col space-y-8  gap-3 justify-start items-center sm:items-start gap-3">
+                    <div class="flex lg:flex-col space-y-8  gap-3 justify-start items-center sm:items-start ">
                         <img src="{{ asset('assets/img/Process-2.png') }}" alt="process-1" class="w-15">
                         <h4 class="text-[clamp(22px,3vw,16px)]  text-white">Search for Available Trademark</h4>
                     </div>
@@ -167,7 +167,7 @@
 
                 </div>
                 <div class="bg-[url(/assets/img/card.png)] bg-no-repeat bg-cover bg-center py-10 px-5 ">
-                    <div class="flex lg:flex-col space-y-8  gap-3 justify-start items-center sm:items-start gap-3">
+                    <div class="flex lg:flex-col space-y-8  gap-3 justify-start items-center sm:items-start ">
                         <img src="{{ asset('assets/img/Process-3.png') }}" alt="process-1" class="w-15">
                         <h4 class="text-[clamp(22px,3vw,16px)] text-white">A Detailed Trademark Report</h4>
                     </div>
@@ -360,7 +360,7 @@
                     <div class="flex justify-start items-center">
 
 
-                        <span class="price-border pr-5 font-RussoOne text-8xl text-teal-600 group-hover:text-white text[clamp(86px,4vw,96px)]">$38</span>
+                        <span class="price-border pr-5 font-RussoOne text-8xl sm:text-4xl md:7xl lg:text-8xl text-teal-600 group-hover:text-white ">$38</span>
                         <span class="group-hover:text-white text-secondary">+Govt. <br> Fee</span>
                     </div>
                     <div class="text-left  pb-5 py-3   border-b-1  group-hover:border-white border-teal-700 ">
@@ -420,7 +420,7 @@
                     <div class="flex justify-start items-center">
 
 
-                        <span class="font-RussoOne text-8xl text-teal-600 group-hover:text-white text[clamp(86px,4vw,96px)]">$149</span>
+                        <span class="font-RussoOne  text-teal-600 group-hover:text-white text-8xl sm:text-4xl md:8xl ">$149</span>
                         <span class="group-hover:text-white text-secondary">+Govt. <br> Fee</span>
                     </div>
                     <div class="text-left  pb-10 py-3 border-b-1  group-hover:border-white border-teal-700 ">
@@ -476,7 +476,7 @@
                     <div class="flex justify-start items-center">
 
 
-                        <span class="font-RussoOne text-8xl text-teal-600 group-hover:text-white text[clamp(86px,4vw,96px)]">$249</span>
+                        <span class="font-RussoOne  text-teal-600 group-hover:text-white ext-8xl sm:text-4xl md:8xl ">$249</span>
                         <span class="group-hover:text-white text-secondary">+Govt. <br> Fee</span>
                     </div>
                     <div class="text-left  pb-5 py-3  border-b-1  group-hover:border-white border-teal-700 ">
@@ -622,9 +622,9 @@
         <div class="row items-center">
             <div class=" lg:w-7/12 w-full">
                 <div>
-                    <h2 class="text-[clamp(24px,3vw,36px)] font-RussoOne leading-0">Amazon <span
-                            class="text-teal-600">Brand</span><span class="text-teal-600 pr-2"><br>Registry</span>Service
-                        In Just <span class=" text-teal-600 text-6xl">$399</span></h2>
+                    <h2 class="text-[clamp(24px,3vw,36px)] font-RussoOne md:leading-0">Amazon <span
+                            class="text-teal-600">Brand</span><span class="text-teal-600 pr-2"><br class="hidden md:block">Registry</span>Service
+                        In Just <span class=" text-teal-600 md:text-6xl text-2xl">$399</span></h2>
 
                 </div>
                 <div>

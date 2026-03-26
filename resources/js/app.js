@@ -20,6 +20,8 @@ hamburgers.forEach((hamburger) => {
     menu.classList.toggle("hidden");
     menu.classList.toggle("flex");
     menu.classList.toggle("flex-col");
+   
+   
   });
 });
 // // swiper js link

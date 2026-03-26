@@ -70,13 +70,107 @@
         </div>
     </section>
     {{-- out-expertice-end --}}
+    <section class="block xl:hidden">
+        <div class="container">
 
-    {{-- start Why Choose Trademark Legit? --}}
-    <section>
+            <div class="flex flex-col justify-center items-center">
+                <h2>Why Choose <span class="text-secondary">Trademark Legit?</span></h2>
+                <p class="text-center [clamp(14px,2vw,16px)]">Choosing Trademark Legit Means Choosing Peace Of Mind. We
+                    Combine Affordability, Accuracy, And Personalized Support To Help You Protect Your Brand With
+                    Confidence. Our Streamlined Process Eliminates The Guesswork From Trademark Registration, While Our
+                    Expert Team Ensures Every Detail Is Handled With Precision.</p>
+                <img src="{{ asset('assets/img/about/circle-img.png') }}" alt="circal-img"
+                    class="w-[20vw] border-4 rounded-full border-secondary p-1">
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2  mt-5 gap-2">
+                <div class="group ">
+                    <div
+                        class= "group-hover:bg-secondary group-hover:scale-105 border-2 duration-300 border-secondary py-5 px-5 flex flex-col     justify-between min-h-24 h-full">
+                        <div>
+                            <h3 class="text-secondary group-hover:text-white text-[clamp(16px,3vw,26px)]">Top-Notch
+                                Expertise</h3>
+                        </div>
+                        <div>
+                            <p class="group-hover:text-white">Our Team Brings In-Depth Legal Knowledge And Procedures To
+                                Ensure Your Issues Are Adequately Addressed.</p>
+                        </div>
 
+                    </div>
+                </div>
+                <div class="group  ">
+                    <div
+                        class= "group-hover:bg-secondary group-hover:scale-105 border-2 duration-300 border-secondary py-5 px-5 flex flex-col     justify-between min-h-24 h-full">
+                        <div>
+                            <h3 class="text-secondary group-hover:text-white text-[clamp(16px,3vw,26px)]">Affordable &
+                                Transparent</h3>
+                        </div>
+                        <div>
+                            <p class="group-hover:text-white">We Offer Competitive Pricing Without Hidden Fees, Making
+                                Professional Trademark Services Accessible To All.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="group  ">
+                    <div
+                        class= " group-hover:bg-secondary group-hover:scale-105 border-2 duration-300 border-secondary py-5 px-5 flex flex-col     justify-between min-h-24 h-full">
+                        <div>
+                            <h3 class="text-secondary group-hover:text-white text-[clamp(14px,3vw,26px)]">Insight-Backed
+                                Solutions</h3>
+                        </div>
+                        <div>
+                            <p class="group-hover:text-white ">We Utilize Comprehensive Research And Data-Driven Insights To
+                                Strengthen Your Trademark Applications And Strategies.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="group  ">
+                    <div
+                        class= "group-hover:bg-secondary group-hover:scale-105 border-2 duration-300 border-secondary py-5 px-5 flex flex-col     justify-between min-h-24 h-full">
+                        <div>
+                            <h3 class="text-secondary group-hover:text-white text-[clamp(16px,3vw,26px)]">Affordable &
+                                Transparent</h3>
+                        </div>
+                        <div>
+                            <p class="group-hover:text-white">We Offer Competitive Pricing Without Hidden Fees, Making
+                                Professional Trademark Services Accessible To All.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="group  ">
+                    <div
+                        class= "group-hover:bg-secondary group-hover:scale-105 border-2 duration-300 border-secondary py-5 px-5 flex flex-col     justify-between min-h-24 h-full">
+                        <div>
+                            <h3 class="text-secondary group-hover:text-white text-[clamp(16px,3vw,26px)]">Driven by Results
+                            </h3>
+                        </div>
+                        <div>
+                            <p class="group-hover:text-white">We Deliver The Best Results, Successful Registrations, Strong
+                                Brand Protection, And Long-Term Client Satisfaction.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="group  ">
+                    <div
+                        class= "group-hover:bg-secondary group-hover:scale-105 border-2 duration-300 border-secondary py-5 px-5 flex flex-col     justify-between min-h-24 h-full">
+                        <div>
+                            <h3 class="text-secondary group-hover:text-white text-[clamp(16px,3vw,26px)]">Strategic Brand
+                                Protection</h3>
+                        </div>
+                        <div>
+                            <p class="group-hover:text-white">Every Case Is Guided By A Personalized Approach To Ensure Your
+                                Brand Is Safeguarded With Full Precision.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
     </section>
-    <section>
-        <div class="container  ">
+    <section class="hidden xl:block">
+        <div class="container">
 
             <div class="text-center  py-5">
                 <h2>Why Choose <span class="text-secondary">Trademark Legit?</span></h2>
@@ -87,24 +181,20 @@
                     With
                     Precision.</p>
             </div>
-            <div class="absolute inset-0 left-1/2 top-1/2 -translate-y-35 -translate-x-1/2  w-[59%] hidden lg:block ">
+            <div class="absolute inset-0 left-1/2 top-1/2 -translate-y-35 -translate-x-1/2  w-[59vw] ">
                 <svg width="100%" height="100%" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid meet"
-                    class="max-w-7xl h-full">
+                    class="  object-contain">
 
                     <ellipse cx="600" cy="350" rx="250" ry="220" fill="rgb(204 251 241 / 0.4)"
                         transform="rotate(-15 600 350)"></ellipse>
 
-                    <line x1="290" y1="110" x2="560" y2="290" stroke="#0d9488"
-                        stroke-width="4">
+                    <line x1="290" y1="110" x2="560" y2="290" stroke="#0d9488" stroke-width="4">
                     </line>
-                    <line x1="290" y1="350" x2="540" y2="350" stroke="#0d9488"
-                        stroke-width="4">
+                    <line x1="290" y1="350" x2="540" y2="350" stroke="#0d9488" stroke-width="4">
                     </line>
-                    <line x1="290" y1="590" x2="560" y2="410" stroke="#0d9488"
-                        stroke-width="4">
+                    <line x1="290" y1="590" x2="560" y2="410" stroke="#0d9488" stroke-width="4">
                     </line>
-                    <line x1="910" y1="110" x2="640" y2="290" stroke="#0d9488"
-                        stroke-width="4">
+                    <line x1="910" y1="110" x2="640" y2="290" stroke="#0d9488" stroke-width="4">
                     </line>
                     <line x1="910" y1="350" x2="660" y2="350" stroke="#0d9488"
                         stroke-width="4">
@@ -115,46 +205,46 @@
                 </svg>
             </div>
             <div class="relative flex  justify-between  gap-2">
-                <div class="space-y-10 lg:w-4/12 sm:w-6/12 w-full">
+                <div class="space-y-10 xl:w-4/12 sm:w-6/12 w-full">
                     <div class="border-2 border-secondary px-3 py-5 flex flex-col hover:bg-secondary hover:scale-110">
-                        <h5 class="text-secondary hover:text-white">Top-Notch Expertise</h5>
-                        <p class="hover:text-white">Our Team Brings In-Depth Legal Knowledge And Procedures To Ensure Your Issues Are Adequately
+                        <h5 class="text-secondary hover:text-white text-[clamp(12px,2vw,22px)]">Top-Notch Expertise</h5>
+                        <p class="hover:text-white">Our Team Brings In-Depth Legal Knowledge And Procedures To Ensure
+                            Your Issues Are Adequately
                             Addressed.</p>
                     </div>
                     <div class="border-2 border-secondary px-3 py-5 flex flex-col">
-                        <h5 class="text-secondary">Insight-Backed Solutions</h5>
+                        <h5 class="text-secondary  text-[clamp(12px,2vw,22px)]">Insight-Backed Solutions</h5>
                         <p>We Utilize Comprehensive Research And Data-Driven Insights To Strengthen Your Trademark
                             Applications And Strategies.</p>
                     </div>
                     <div class="border-2 border-secondary px-3 py-5 flex flex-col">
-                        <h5 class="text-secondary">Affordable & Transparent</h5>
+                        <h5 class="text-secondary  text-[clamp(12px,2vw,22px)]">Affordable & Transparent</h5>
                         <p>We Offer Competitive Pricing Without Hidden Fees, Making Professional Trademark Services
                             Accessible To All.</p>
                     </div>
                 </div>
 
-                <div class=" w-full hidden lg:block  md:w-4/12">
-                    <div class="flex justify-center items-center p-8   ">
+                <div class=" w-0 hidden xl:block   xl:w-4/12">
+                    <div class="flex justify-center items-center p-8">
                         <img src="{{ asset('assets/img/about/circle-img (1).png') }}" alt="circal-img"
                             class="object-contain w-60  border-4 border-secondary rounded-full p-2 shadow-secondary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     </div>
                 </div>
-                <div class="space-y-10 lg:w-4/12 sm:w-6/12 w-full">
+                <div class="space-y-10 xl:w-4/12 sm:w-6/12 w-full">
                     <div class="border-2 border-secondary px-3 py-5 flex flex-col">
-                        <h5 class="text-secondary">Driven by Results</h5>
+                        <h5 class="text-secondary  text-[clamp(12px,2vw,22px)]">Driven by Results</h5>
                         <p>We Deliver The Best Results, Successful Registrations, Strong Brand Protection, And Long-Term
                             Client Satisfaction.</p>
                     </div>
                     <div class="border-2 border-secondary px-3 py-5 flex flex-col">
-                        <h5 class="text-secondary">Strategic Brand Protection</h5>
+                        <h5 class="text-secondary  text-[clamp(12px,2vw,22px)]">Strategic Brand Protection</h5>
                         <p>Every Case Is Guided By A Personalized Approach To Ensure Your Brand Is Safeguarded With Full
                             Precision.</p>
                     </div>
-                    <div class="border-2 border-secondary px-3 py-3 lg:py-5 flex flex-col">
-                        <h5 class="text-secondary">Simple, Stress-Free Process</h5>
-                        <p>Our Unique Platform And Dedicated Support Make It Easy To Navigate Every Step Of The Process
-                            With
-                            Confidence.</p>
+                    <div class="border-2 border-secondary px-3 py-5 flex flex-col">
+                        <h5 class="text-secondary  text-[clamp(12px,2vw,22px)]">Strategic Brand Protection</h5>
+                        <p>Every Case Is Guided By A Personalized Approach To Ensure Your Brand Is Safeguarded With Full
+                            Precision.</p>
                     </div>
                 </div>
             </div>
